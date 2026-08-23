@@ -1,0 +1,22 @@
+{
+  "name": "bayyin-backend",
+  "version": "1.0.0",
+  "description": "Backend services for Bayyin Saudi Contract Analyzer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.12.0",
+    "@supabase/supabase-js": "^2.112.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "jimp": "^0.22.12",
+    "mammoth": "^1.7.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1",
+    "tesseract.js": "^5.0.5"
+  }
+}

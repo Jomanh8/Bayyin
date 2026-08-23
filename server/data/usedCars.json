@@ -1,0 +1,265 @@
+[
+  {
+    "referenceId": "car_ref1",
+    "contractType": "car",
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Civil Transactions Law",
+      "ar": "نظام المعاملات المدنية"
+    },
+    "articleNumber": "Article 335",
+    "articleTitle": {
+      "en": "Risk of Loss and Destruction of Sold Property",
+      "ar": "تبعة هلاك المبيع قبل التسليم"
+    },
+    "articleText": {
+      "en": "If the sold item is destroyed before delivery due to a cause not attributable to the buyer, the sale contract is rescinded and the seller must return the price to the buyer.",
+      "ar": "إذا هلك المبيع قبل التسليم لسبب لا يد للمشتري فيه، انفسخ البيع واسترد المشتري الثمن، وتكون تبعة الهلاك على البائع."
+    },
+    "plainLanguageExplanation": {
+      "en": "Under Saudi Civil Transactions Law, the risk of destruction or loss of a sold item before delivery is borne by the seller, not the buyer. Transferring this risk early exposes the buyer to losses if the vehicle is damaged while still in the seller's garage.",
+      "ar": "بموجب المادة 335 من نظام المعاملات المدنية السعودي، فإن تبعة هلاك المبيع قبل التسليم تقع على البائع وليس المشتري. ونقل هذه التبعة مبكراً يعرض المشتري لخسارة ماله إذا تضررت السيارة وهي لا تزال في حوزة البائع."
+    },
+    "keywords": [
+      "loss",
+      "destruction",
+      "damage",
+      "risk of loss",
+      "هلاك",
+      "تلف المركبة",
+      "هلاك المبيع",
+      "تلفها"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "riskPatterns": [
+      "immediately upon signing",
+      "فور توقيع"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Civil Transactions Law",
+      "ar": "نظام المعاملات المدنية"
+    },
+    "Article Number": "Article 335",
+    "Article Title": {
+      "en": "Risk of Loss and Destruction of Sold Property",
+      "ar": "تبعة هلاك المبيع قبل التسليم"
+    },
+    "Original Article Text": {
+      "en": "If the sold item is destroyed before delivery due to a cause not attributable to the buyer, the sale contract is rescinded and the seller must return the price to the buyer.",
+      "ar": "إذا هلك المبيع قبل التسليم لسبب لا يد للمشتري فيه، انفسخ البيع واسترد المشتري الثمن، وتكون تبعة الهلاك على البائع."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "Contract Type": "car",
+    "Keywords": [
+      "loss",
+      "destruction",
+      "damage",
+      "risk of loss",
+      "هلاك",
+      "تلف المركبة",
+      "هلاك المبيع",
+      "تلفها"
+    ],
+    "Risk Patterns": [
+      "immediately upon signing",
+      "فور توقيع"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "If the sold item is destroyed before delivery due to a cause not attributable to the buyer, the sale contract is rescinded and the seller must return the price to the buyer.",
+      "ar": "إذا هلك المبيع قبل التسليم لسبب لا يد للمشتري فيه، انفسخ البيع واسترد المشتري الثمن، وتكون تبعة الهلاك على البائع."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law"
+  },
+  {
+    "referenceId": "car_ref2",
+    "contractType": "car",
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Civil Transactions Law",
+      "ar": "نظام المعاملات المدنية"
+    },
+    "articleNumber": "Article 107",
+    "articleTitle": {
+      "en": "Contract Deposits (Arboon) and Default Consequences",
+      "ar": "أحكام دفع العربون وآثاره عند التراجع"
+    },
+    "articleText": {
+      "en": "If the party who paid the deposit withdraws, he loses it. If the party who received the deposit withdraws, he must return it and pay an equivalent amount to the other party.",
+      "ar": "إذا عدل من دفع العربون فقده، وإذا عدل من قبضه وجب عليه رده ومثله للمتعاقد الآخر."
+    },
+    "plainLanguageExplanation": {
+      "en": "Under Saudi Civil Transactions Law, deposits (Arboon) govern exit options. If the contract is breached by the party who received the deposit (the Seller), the Seller must refund the deposit and pay an equivalent amount as compensation to the buyer, unless agreed otherwise. Denying refund when the seller defaults is completely illegal.",
+      "ar": "بموجب المادة 107 من نظام المعاملات المدنية السعودي (أحكام العربون)، إذا كان العدول عن التعاقد من طرف من قبض العربون (البائع)، وجب عليه رده ومعه مثله (أي تعويض معادل) للمشتري. وحرمان المشتري من استرجاع عربونه عند إخلال البائع باطل تماماً."
+    },
+    "keywords": [
+      "deposit",
+      "non-refundable",
+      "arboon",
+      "عربون",
+      "عربون غير مسترد",
+      "مصادرة العربون"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "riskPatterns": [
+      "non-refundable",
+      "غير قابل للاسترداد"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Civil Transactions Law",
+      "ar": "نظام المعاملات المدنية"
+    },
+    "Article Number": "Article 107",
+    "Article Title": {
+      "en": "Contract Deposits (Arboon) and Default Consequences",
+      "ar": "أحكام دفع العربون وآثاره عند التراجع"
+    },
+    "Original Article Text": {
+      "en": "If the party who paid the deposit withdraws, he loses it. If the party who received the deposit withdraws, he must return it and pay an equivalent amount to the other party.",
+      "ar": "إذا عدل من دفع العربون فقده، وإذا عدل من قبضه وجب عليه رده ومثله للمتعاقد الآخر."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "Contract Type": "car",
+    "Keywords": [
+      "deposit",
+      "non-refundable",
+      "arboon",
+      "عربون",
+      "عربون غير مسترد",
+      "مصادرة العربون"
+    ],
+    "Risk Patterns": [
+      "non-refundable",
+      "غير قابل للاسترداد"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "If the party who paid the deposit withdraws, he loses it. If the party who received the deposit withdraws, he must return it and pay an equivalent amount to the other party.",
+      "ar": "إذا عدل من دفع العربون فقده، وإذا عدل من قبضه وجب عليه رده ومثله للمتعاقد الآخر."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law"
+  },
+  {
+    "referenceId": "car_ref3",
+    "contractType": "car",
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Civil Transactions Law",
+      "ar": "نظام المعاملات المدنية"
+    },
+    "articleNumber": "Article 367",
+    "articleTitle": {
+      "en": "Warranties Against Hidden Defects and Fraud Rules",
+      "ar": "ضمان العيوب الخفية والتدليس"
+    },
+    "articleText": {
+      "en": "Every agreement that excludes or limits the warranty for defects is void if the seller has deliberately concealed the defect in the sold item.",
+      "ar": "يقع باطلاً كل شرط يسقط الضمان أو يقيده إذا كان البائع قد تعمد إخفاء العيب في المبيع."
+    },
+    "plainLanguageExplanation": {
+      "en": "Under Saudi Civil Transactions Law, a seller is liable for hidden defects. Crucially, any clause disclaiming warranty for defects is legally void if the seller deliberately concealed the defect in bad faith or committed fraud.",
+      "ar": "بموجب المادة 367 من نظام المعاملات المدنية، يضمن البائع العيوب الخفية في المبيع. ويقع باطلاً كل شرط يسقط الضمان أو يقيده إذا كان البائع قد تعمد إخفاء العيب بسوء نية أو غش."
+    },
+    "keywords": [
+      "defect",
+      "hidden defect",
+      "as-is",
+      "warranty",
+      "عيب",
+      "عيوب خفية",
+      "خفي",
+      "سكراب",
+      "حالتها الراهنة"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "riskPatterns": [
+      "as-is",
+      "hidden mechanical",
+      "بحالتها الراهنة",
+      "الخفية"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Civil Transactions Law",
+      "ar": "نظام المعاملات المدنية"
+    },
+    "Article Number": "Article 367",
+    "Article Title": {
+      "en": "Warranties Against Hidden Defects and Fraud Rules",
+      "ar": "ضمان العيوب الخفية والتدليس"
+    },
+    "Original Article Text": {
+      "en": "Every agreement that excludes or limits the warranty for defects is void if the seller has deliberately concealed the defect in the sold item.",
+      "ar": "يقع باطلاً كل شرط يسقط الضمان أو يقيده إذا كان البائع قد تعمد إخفاء العيب في المبيع."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "Contract Type": "car",
+    "Keywords": [
+      "defect",
+      "hidden defect",
+      "as-is",
+      "warranty",
+      "عيب",
+      "عيوب خفية",
+      "خفي",
+      "سكراب",
+      "حالتها الراهنة"
+    ],
+    "Risk Patterns": [
+      "as-is",
+      "hidden mechanical",
+      "بحالتها الراهنة",
+      "الخفية"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "Every agreement that excludes or limits the warranty for defects is void if the seller has deliberately concealed the defect in the sold item.",
+      "ar": "يقع باطلاً كل شرط يسقط الضمان أو يقيده إذا كان البائع قد تعمد إخفاء العيب في المبيع."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law"
+  }
+]

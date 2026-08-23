@@ -1,0 +1,87 @@
+[
+  {
+    "referenceId": "bank_ref1",
+    "contractType": "subscription",
+    "authority": {
+      "en": "Saudi Central Bank (SAMA)",
+      "ar": "البنك المركزي السعودي (ساما)"
+    },
+    "lawName": {
+      "en": "Banking Consumer Protection Principles",
+      "ar": "مبادئ حماية عملاء البنوك والمؤسسات المالية"
+    },
+    "articleNumber": "Section 3.2",
+    "articleTitle": {
+      "en": "Recurring Payments Notifications and Cancellation Controls",
+      "ar": "ضوابط العمليات المتكررة والاشتراكات"
+    },
+    "articleText": {
+      "en": "Financial institutions must notify consumers prior to any dynamic or auto-renewing transaction and offer clear, simple mechanisms to revoke consent.",
+      "ar": "يجب على المؤسسات المالية والجهات المرخصة إخطار المستهلكين قبل تنفيذ أي عمليات تجديد تلقائي أو خصومات متكررة مع توفير وسيلة مباشرة لإلغائها."
+    },
+    "plainLanguageExplanation": {
+      "en": "Silent auto-renewals with card charges are regulated under Saudi E-Commerce Law and SAMA principles. The consumer must be informed of the renewal date at least 2-7 days in advance (depending on duration), and must be provided an easy, clear way to toggle auto-renewal off at any time.",
+      "ar": "عمليات التجديد التلقائي الصامتة مع الخصم التلقائي تخضع لرقابة صارمة بموجب نظام التجارة الإلكترونية السعودي ومبادئ البنك المركزي. يجب إبلاغ المشترك بتاريخ التجديد وقيمته قبل حدوثه بـ 2 إلى 7 أيام (حسب مدة الاشتراك)، مع توفير وسيلة سهلة لإلغاء التجديد التلقائي في أي وقت."
+    },
+    "keywords": [
+      "renew",
+      "auto-renew",
+      "billing cycle",
+      "تجديد",
+      "تجديد تلقائي",
+      "تلقائيا",
+      "بطاقة ائتمانية"
+    ],
+    "officialUrl": "https://www.sama.gov.sa/ar-sa/LawsRegulations/Pages/default.aspx",
+    "riskPatterns": [
+      "automatically renew",
+      "تلقائياً"
+    ],
+    "Authority": {
+      "en": "Saudi Central Bank (SAMA)",
+      "ar": "البنك المركزي السعودي (ساما)"
+    },
+    "Law Name": {
+      "en": "Banking Consumer Protection Principles",
+      "ar": "مبادئ حماية عملاء البنوك والمؤسسات المالية"
+    },
+    "Article Number": "Section 3.2",
+    "Article Title": {
+      "en": "Recurring Payments Notifications and Cancellation Controls",
+      "ar": "ضوابط العمليات المتكررة والاشتراكات"
+    },
+    "Original Article Text": {
+      "en": "Financial institutions must notify consumers prior to any dynamic or auto-renewing transaction and offer clear, simple mechanisms to revoke consent.",
+      "ar": "يجب على المؤسسات المالية والجهات المرخصة إخطار المستهلكين قبل تنفيذ أي عمليات تجديد تلقائي أو خصومات متكررة مع توفير وسيلة مباشرة لإلغائها."
+    },
+    "Official Source URL": "https://www.sama.gov.sa/ar-sa/LawsRegulations/Pages/default.aspx",
+    "Contract Type": "subscription",
+    "Keywords": [
+      "renew",
+      "auto-renew",
+      "billing cycle",
+      "تجديد",
+      "تجديد تلقائي",
+      "تلقائيا",
+      "بطاقة ائتمانية"
+    ],
+    "Risk Patterns": [
+      "automatically renew",
+      "تلقائياً"
+    ],
+    "governmentAuthority": {
+      "en": "Saudi Central Bank (SAMA)",
+      "ar": "البنك المركزي السعودي (ساما)"
+    },
+    "originalArticleText": {
+      "en": "Financial institutions must notify consumers prior to any dynamic or auto-renewing transaction and offer clear, simple mechanisms to revoke consent.",
+      "ar": "يجب على المؤسسات المالية والجهات المرخصة إخطار المستهلكين قبل تنفيذ أي عمليات تجديد تلقائي أو خصومات متكررة مع توفير وسيلة مباشرة لإلغائها."
+    },
+    "officialSourceUrl": "https://www.sama.gov.sa/ar-sa/LawsRegulations/Pages/default.aspx",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law"
+  }
+]

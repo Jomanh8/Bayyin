@@ -1,0 +1,263 @@
+[
+  {
+    "referenceId": "tel_ref1",
+    "contractType": "mobile",
+    "authority": {
+      "en": "Communications, Space and Technology Commission (CST)",
+      "ar": "هيئة الاتصالات والفضاء والتقنية"
+    },
+    "lawName": {
+      "en": "Telecom Service Users Rights Protection Document",
+      "ar": "وثيقة تنظيم حقوق مستخدمي خدمات الاتصالات"
+    },
+    "articleNumber": "Article 12",
+    "articleTitle": {
+      "en": "Price Tariffs Notifications and Changes Regulations",
+      "ar": "تعديل أسعار الخدمات والتعرفات"
+    },
+    "articleText": {
+      "en": "Service providers must notify users of any tariff changes at least 30 days before their implementation. The user has the right to terminate the contract without any penalty in case of fee increases.",
+      "ar": "يجب على مقدم الخدمة إخطار المستخدم بأي تعديل في أسعار الخدمات المشترك بها قبل 30 يوماً على الأقل من بدء تطبيق التعديل، وللمستخدم الحق في إلغاء اشتراكه دون تحمل أي غرامة مالية."
+    },
+    "plainLanguageExplanation": {
+      "en": "Service providers must notify customers at least 30 days before changing service prices, and must allow users to cancel without penalty if they reject the rate hike.",
+      "ar": "يجب على الشركة إبلاغ المشترك قبل 30 يوماً من تطبيق أي تعديل في الأسعار، مع إعطائه الحق في إلغاء الاشتراك دون غرامة في حال رفض الزيادة."
+    },
+    "keywords": [
+      "price",
+      "tariff",
+      "increase",
+      "charge",
+      "سعر",
+      "زيادة الأسعار",
+      "باقات",
+      "تغيير الأسعار"
+    ],
+    "officialUrl": "https://www.cst.gov.sa",
+    "riskPatterns": [
+      "without prior notification",
+      "دون سابق إنذار"
+    ],
+    "Authority": {
+      "en": "Communications, Space and Technology Commission (CST)",
+      "ar": "هيئة الاتصالات والفضاء والتقنية"
+    },
+    "Law Name": {
+      "en": "Telecom Service Users Rights Protection Document",
+      "ar": "وثيقة تنظيم حقوق مستخدمي خدمات الاتصالات"
+    },
+    "Article Number": "Article 12",
+    "Article Title": {
+      "en": "Price Tariffs Notifications and Changes Regulations",
+      "ar": "تعديل أسعار الخدمات والتعرفات"
+    },
+    "Original Article Text": {
+      "en": "Service providers must notify users of any tariff changes at least 30 days before their implementation. The user has the right to terminate the contract without any penalty in case of fee increases.",
+      "ar": "يجب على مقدم الخدمة إخطار المستخدم بأي تعديل في أسعار الخدمات المشترك بها قبل 30 يوماً على الأقل من بدء تطبيق التعديل، وللمستخدم الحق في إلغاء اشتراكه دون تحمل أي غرامة مالية."
+    },
+    "Official Source URL": "https://www.cst.gov.sa",
+    "Contract Type": "mobile",
+    "Keywords": [
+      "price",
+      "tariff",
+      "increase",
+      "charge",
+      "سعر",
+      "زيادة الأسعار",
+      "باقات",
+      "تغيير الأسعار"
+    ],
+    "Risk Patterns": [
+      "without prior notification",
+      "دون سابق إنذار"
+    ],
+    "governmentAuthority": {
+      "en": "Communications, Space and Technology Commission (CST)",
+      "ar": "هيئة الاتصالات والفضاء والتقنية"
+    },
+    "originalArticleText": {
+      "en": "Service providers must notify users of any tariff changes at least 30 days before their implementation. The user has the right to terminate the contract without any penalty in case of fee increases.",
+      "ar": "يجب على مقدم الخدمة إخطار المستخدم بأي تعديل في أسعار الخدمات المشترك بها قبل 30 يوماً على الأقل من بدء تطبيق التعديل، وللمستخدم الحق في إلغاء اشتراكه دون تحمل أي غرامة مالية."
+    },
+    "officialSourceUrl": "https://www.cst.gov.sa",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law"
+  },
+  {
+    "referenceId": "tel_ref2",
+    "contractType": "mobile",
+    "authority": {
+      "en": "Communications, Space and Technology Commission (CST)",
+      "ar": "هيئة الاتصالات والفضاء والتقنية"
+    },
+    "lawName": {
+      "en": "Telecom Service Users Rights Protection Document",
+      "ar": "وثيقة تنظيم حقوق مستخدمي خدمات الاتصالات"
+    },
+    "articleNumber": "Article 25",
+    "articleTitle": {
+      "en": "Outages Continuity Penalties and Billing Adjustments",
+      "ar": "استمرارية الخدمة والخصومات مقابل انقطاع الشبكة"
+    },
+    "articleText": {
+      "en": "The service provider must compensate the user for service interruptions... by applying billing adjustments proportionate to the duration of the outage in accordance with the regulations.",
+      "ar": "يلتزم مقدم الخدمة بتعويض المستخدم عن انقطاع الخدمة... وذلك بإجراء تسوية مالية تتناسب مع مدة الانقطاع طبقاً للضوابط المعتمدة من الهيئة."
+    },
+    "plainLanguageExplanation": {
+      "en": "If service is suspended or cut off due to network failures or maintenance exceeding regulatory limits, providers are legally required to deduct corresponding amounts from the bill or credit the subscriber's account.",
+      "ar": "إذا انقطعت الخدمة أو توقفت بسبب أعطال فنية أو أعمال صيانة تتجاوز الحدود المسموح بها، يلتزم مقدم الخدمة بخصم قيمة فترة الانقطاع من الفاتورة أو تقديم تعويض مكافئ للمشترك."
+    },
+    "keywords": [
+      "outage",
+      "downtime",
+      "refund",
+      "compensation",
+      "SLA",
+      "انقطاع",
+      "تعويض",
+      "انقطاع الخدمة",
+      "خصم الفاتورة"
+    ],
+    "officialUrl": "https://www.cst.gov.sa",
+    "riskPatterns": [
+      "not be entitled to any refund",
+      "لا يحق للعميل المطالبة"
+    ],
+    "Authority": {
+      "en": "Communications, Space and Technology Commission (CST)",
+      "ar": "هيئة الاتصالات والفضاء والتقنية"
+    },
+    "Law Name": {
+      "en": "Telecom Service Users Rights Protection Document",
+      "ar": "وثيقة تنظيم حقوق مستخدمي خدمات الاتصالات"
+    },
+    "Article Number": "Article 25",
+    "Article Title": {
+      "en": "Outages Continuity Penalties and Billing Adjustments",
+      "ar": "استمرارية الخدمة والخصومات مقابل انقطاع الشبكة"
+    },
+    "Original Article Text": {
+      "en": "The service provider must compensate the user for service interruptions... by applying billing adjustments proportionate to the duration of the outage in accordance with the regulations.",
+      "ar": "يلتزم مقدم الخدمة بتعويض المستخدم عن انقطاع الخدمة... وذلك بإجراء تسوية مالية تتناسب مع مدة الانقطاع طبقاً للضوابط المعتمدة من الهيئة."
+    },
+    "Official Source URL": "https://www.cst.gov.sa",
+    "Contract Type": "mobile",
+    "Keywords": [
+      "outage",
+      "downtime",
+      "refund",
+      "compensation",
+      "SLA",
+      "انقطاع",
+      "تعويض",
+      "انقطاع الخدمة",
+      "خصم الفاتورة"
+    ],
+    "Risk Patterns": [
+      "not be entitled to any refund",
+      "لا يحق للعميل المطالبة"
+    ],
+    "governmentAuthority": {
+      "en": "Communications, Space and Technology Commission (CST)",
+      "ar": "هيئة الاتصالات والفضاء والتقنية"
+    },
+    "originalArticleText": {
+      "en": "The service provider must compensate the user for service interruptions... by applying billing adjustments proportionate to the duration of the outage in accordance with the regulations.",
+      "ar": "يلتزم مقدم الخدمة بتعويض المستخدم عن انقطاع الخدمة... وذلك بإجراء تسوية مالية تتناسب مع مدة الانقطاع طبقاً للضوابط المعتمدة من الهيئة."
+    },
+    "officialSourceUrl": "https://www.cst.gov.sa",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law"
+  },
+  {
+    "referenceId": "tel_ref3",
+    "contractType": "mobile",
+    "authority": {
+      "en": "Communications, Space and Technology Commission (CST)",
+      "ar": "هيئة الاتصالات والفضاء والتقنية"
+    },
+    "lawName": {
+      "en": "Telecom Service Users Rights Protection Document",
+      "ar": "وثيقة تنظيم حقوق مستخدمي خدمات الاتصالات"
+    },
+    "articleNumber": "Article 18",
+    "articleTitle": {
+      "en": "Early Cancellation and Subsidized Device Proration Limits",
+      "ar": "شروط الإلغاء المبكر والشرط الجزائي للأجهزة"
+    },
+    "articleText": {
+      "en": "The service provider may not charge the user any cancellation fee that exceeds the remaining value of the subsidized device, calculated proportionally to the elapsed duration of the contract.",
+      "ar": "لا يجوز لمقدم الخدمة مطالبة المستخدم بأي مبالغ عند إلغاء الخدمة قبل انتهاء مدة العقد تتجاوز القيمة المتبقية للجهاز المدعوم المحسوبة بنسبة وتناسب."
+    },
+    "plainLanguageExplanation": {
+      "en": "If you cancel a plan early, the service provider can only charge you for the remaining value of any subsidized device (prorated monthly). They cannot demand the full monthly plan subscription fees for the remaining months.",
+      "ar": "إذا قمت بإلغاء باقة الاتصال مبكراً، يحق للشركة مطالبتك فقط بالقيمة المتبقية من قيمة الجهاز المدعوم (بنسبة تناسبية للأشهر المتبقية). ولا يجوز لها مطالبتك بدفع قيمة الاشتراكات الشهرية المتبقية للباقة."
+    },
+    "keywords": [
+      "early termination fee",
+      "subsidy",
+      "cancellation fee",
+      "penalties",
+      "شرط جزائي",
+      "إلغاء باقة",
+      "تكلفة إلغاء"
+    ],
+    "officialUrl": "https://www.cst.gov.sa",
+    "riskPatterns": [
+      "total monthly subscription",
+      "مجموع الاشتراكات الشهرية"
+    ],
+    "Authority": {
+      "en": "Communications, Space and Technology Commission (CST)",
+      "ar": "هيئة الاتصالات والفضاء والتقنية"
+    },
+    "Law Name": {
+      "en": "Telecom Service Users Rights Protection Document",
+      "ar": "وثيقة تنظيم حقوق مستخدمي خدمات الاتصالات"
+    },
+    "Article Number": "Article 18",
+    "Article Title": {
+      "en": "Early Cancellation and Subsidized Device Proration Limits",
+      "ar": "شروط الإلغاء المبكر والشرط الجزائي للأجهزة"
+    },
+    "Original Article Text": {
+      "en": "The service provider may not charge the user any cancellation fee that exceeds the remaining value of the subsidized device, calculated proportionally to the elapsed duration of the contract.",
+      "ar": "لا يجوز لمقدم الخدمة مطالبة المستخدم بأي مبالغ عند إلغاء الخدمة قبل انتهاء مدة العقد تتجاوز القيمة المتبقية للجهاز المدعوم المحسوبة بنسبة وتناسب."
+    },
+    "Official Source URL": "https://www.cst.gov.sa",
+    "Contract Type": "mobile",
+    "Keywords": [
+      "early termination fee",
+      "subsidy",
+      "cancellation fee",
+      "penalties",
+      "شرط جزائي",
+      "إلغاء باقة",
+      "تكلفة إلغاء"
+    ],
+    "Risk Patterns": [
+      "total monthly subscription",
+      "مجموع الاشتراكات الشهرية"
+    ],
+    "governmentAuthority": {
+      "en": "Communications, Space and Technology Commission (CST)",
+      "ar": "هيئة الاتصالات والفضاء والتقنية"
+    },
+    "originalArticleText": {
+      "en": "The service provider may not charge the user any cancellation fee that exceeds the remaining value of the subsidized device, calculated proportionally to the elapsed duration of the contract.",
+      "ar": "لا يجوز لمقدم الخدمة مطالبة المستخدم بأي مبالغ عند إلغاء الخدمة قبل انتهاء مدة العقد تتجاوز القيمة المتبقية للجهاز المدعوم المحسوبة بنسبة وتناسب."
+    },
+    "officialSourceUrl": "https://www.cst.gov.sa",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law"
+  }
+]

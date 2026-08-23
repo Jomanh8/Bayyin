@@ -1,0 +1,1410 @@
+[
+  {
+    "referenceId": "emp_ref1",
+    "contractType": "employment",
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "articleNumber": "Article 98",
+    "articleTitle": {
+      "en": "Standard Daily and Weekly Working Hours Limit",
+      "ar": "ساعات العمل اليومية والأسبوعية القياسية"
+    },
+    "articleText": {
+      "en": "An employee may not work for more than eight hours a day if the employer adopts a daily work system, or more than forty-eight hours a week if he adopts a weekly work system.",
+      "ar": "لا يجوز تشغيل العامل أكثر من ثماني ساعات في اليوم الواحد، إذا اعتمد صاحب العمل معياراً يومياً، أو أكثر من ثماني وأربعين ساعة في الأسبوع، إذا اعتمد معياراً أسبوعياً."
+    },
+    "plainLanguageExplanation": {
+      "en": "The contract defines working hours at 8 hours per day and 48 hours per week, with a weekly rest day. This perfectly matches Saudi Labor Law.",
+      "ar": "يحدد العقد ساعات العمل بـ 8 ساعات يومياً وبإجمالي 48 ساعة في الأسبوع، مع إجازة أسبوعية. هذا يتطابق تماماً مع نظام العمل السعودي."
+    },
+    "keywords": [
+      "working hours",
+      "hours a day",
+      "hours per day",
+      "schedules",
+      "ساعات العمل",
+      "ساعات عمل",
+      "ساعة في اليوم",
+      "ساعة يوميا",
+      "راحة أسبوعية",
+      "الراحة الأسبوعية"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "riskPatterns": [
+      "more than eight hours",
+      "more than forty-eight hours",
+      "أكثر من ثماني ساعات",
+      "أكثر من ثماني وأربعين ساعة"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "Article Number": "Article 98",
+    "Article Title": {
+      "en": "Standard Daily and Weekly Working Hours Limit",
+      "ar": "ساعات العمل اليومية والأسبوعية القياسية"
+    },
+    "Original Article Text": {
+      "en": "An employee may not work for more than eight hours a day if the employer adopts a daily work system, or more than forty-eight hours a week if he adopts a weekly work system.",
+      "ar": "لا يجوز تشغيل العامل أكثر من ثماني ساعات في اليوم الواحد، إذا اعتمد صاحب العمل معياراً يومياً، أو أكثر من ثماني وأربعين ساعة في الأسبوع، إذا اعتمد معياراً أسبوعياً."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "Contract Type": "employment",
+    "Keywords": [
+      "working hours",
+      "hours a day",
+      "hours per day",
+      "schedules",
+      "ساعات العمل",
+      "ساعات عمل",
+      "ساعة في اليوم",
+      "ساعة يوميا",
+      "راحة أسبوعية",
+      "الراحة الأسبوعية"
+    ],
+    "Risk Patterns": [
+      "more than eight hours",
+      "more than forty-eight hours",
+      "أكثر من ثماني ساعات",
+      "أكثر من ثماني وأربعين ساعة"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "An employee may not work for more than eight hours a day if the employer adopts a daily work system, or more than forty-eight hours a week if he adopts a weekly work system.",
+      "ar": "لا يجوز تشغيل العامل أكثر من ثماني ساعات في اليوم الواحد، إذا اعتمد صاحب العمل معياراً يومياً، أو أكثر من ثماني وأربعين ساعة في الأسبوع، إذا اعتمد معياراً أسبوعياً."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law",
+    "topic": "working_hours",
+    "subtopics": [
+      "daily_hours",
+      "weekly_hours",
+      "rest_days"
+    ],
+    "arabicKeywords": [
+      "ساعات العمل",
+      "ساعات عمل",
+      "ساعة في اليوم",
+      "ساعة يوميا",
+      "راحة أسبوعية",
+      "الراحة الأسبوعية",
+      "الدوام",
+      "ساعات الدوام"
+    ],
+    "englishKeywords": [
+      "working hours",
+      "hours a day",
+      "hours per day",
+      "weekly rest",
+      "work schedule"
+    ],
+    "sourceScope": "full_law",
+    "officialSourceType": "Saudi Labor Law — full official law page"
+  },
+  {
+    "referenceId": "emp_ref2",
+    "contractType": "employment",
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "articleNumber": "Article 53",
+    "articleTitle": {
+      "en": "Probationary Period and Extension Conditions",
+      "ar": "فترة التجربة وضوابط تمديدها"
+    },
+    "articleText": {
+      "en": "If the worker is subject to a probationary period, it must be specified in writing and must not exceed ninety days... It may be extended for another period not exceeding ninety days by written agreement between the worker and the employer after the commencement of the work relationship.",
+      "ar": "إذا كان العامل خاضعاً لفترة تجربة، وجب تحديد ذلك كتابة في عقد العمل، على ألا تزيد على تسعين يوماً... ويجوز باتفاق كتابي على انفراد بين العامل وصاحب العمل تمديد فترة التجربة بشرط ألا تزيد على مائة وثمانين يوماً بعد بدء مباشرة العمل."
+    },
+    "plainLanguageExplanation": {
+      "en": "The initial probation period must not exceed 90 days. It can only be extended up to 180 days with the written, explicit consent of both parties after the contract begins.",
+      "ar": "يجب ألا تتجاوز فترة التجربة الأساسية 90 يوماً. ولا يجوز تمديدها إلى 180 يوماً إلا بموافقة كتابية صريحة من الطرفين بعد بدء مباشرة العمل."
+    },
+    "keywords": [
+      "probation",
+      "probationary",
+      "trial",
+      "trial period",
+      "تجربة",
+      "فترة التجربة",
+      "فترة تجربة",
+      "تحت التجربة"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "riskPatterns": [
+      "180 days",
+      "120 days",
+      "١٨٠ يوماً",
+      "١٢٠ يوماً"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "Article Number": "Article 53",
+    "Article Title": {
+      "en": "Probationary Period and Extension Conditions",
+      "ar": "فترة التجربة وضوابط تمديدها"
+    },
+    "Original Article Text": {
+      "en": "If the worker is subject to a probationary period, it must be specified in writing and must not exceed ninety days... It may be extended for another period not exceeding ninety days by written agreement between the worker and the employer after the commencement of the work relationship.",
+      "ar": "إذا كان العامل خاضعاً لفترة تجربة، وجب تحديد ذلك كتابة في عقد العمل، على ألا تزيد على تسعين يوماً... ويجوز باتفاق كتابي على انفراد بين العامل وصاحب العمل تمديد فترة التجربة بشرط ألا تزيد على مائة وثمانين يوماً بعد بدء مباشرة العمل."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "Contract Type": "employment",
+    "Keywords": [
+      "probation",
+      "probationary",
+      "trial",
+      "trial period",
+      "تجربة",
+      "فترة التجربة",
+      "فترة تجربة",
+      "تحت التجربة"
+    ],
+    "Risk Patterns": [
+      "180 days",
+      "120 days",
+      "١٨٠ يوماً",
+      "١٢٠ يوماً"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "If the worker is subject to a probationary period, it must be specified in writing and must not exceed ninety days... It may be extended for another period not exceeding ninety days by written agreement between the worker and the employer after the commencement of the work relationship.",
+      "ar": "إذا كان العامل خاضعاً لفترة تجربة، وجب تحديد ذلك كتابة في عقد العمل، على ألا تزيد على تسعين يوماً... ويجوز باتفاق كتابي على انفراد بين العامل وصاحب العمل تمديد فترة التجربة بشرط ألا تزيد على مائة وثمانين يوماً بعد بدء مباشرة العمل."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law",
+    "topic": "probation",
+    "subtopics": [
+      "probation_period",
+      "probation_extension",
+      "trial_period"
+    ],
+    "arabicKeywords": [
+      "فترة التجربة",
+      "فترة تجربة",
+      "تحت التجربة",
+      "تجربة",
+      "تمديد فترة التجربة",
+      "مدة التجربة"
+    ],
+    "englishKeywords": [
+      "probation",
+      "probationary",
+      "trial",
+      "trial period",
+      "probation period"
+    ],
+    "sourceScope": "full_law",
+    "officialSourceType": "Saudi Labor Law — full official law page"
+  },
+  {
+    "referenceId": "emp_ref3",
+    "contractType": "employment",
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "articleNumber": "Article 91",
+    "articleTitle": {
+      "en": "Wage Deductions for Damaged Property",
+      "ar": "الخصم من الأجر مقابل التلفيات"
+    },
+    "articleText": {
+      "en": "If a worker causes loss or destruction to tools... that belong to the employer... the employer may deduct from the worker's wage the cost of repair or replacement, provided that the deduction does not exceed five days' wages in each month... The employer may complain before the competent authorities if he wants a larger deduction.",
+      "ar": "إذا تسبب العامل في فقد أو إتلاف أو تدمير آلات أو منتجات يملكها صاحب العمل... جاز لصاحب العمل أن يقتطع من أجر العامل المبلغ اللازم للإصلاح أو لإعادة الوضع إلى ما كان عليه، على ألا يزيد ما يقتطع لهذا الغرض على أجر خمسة أيام في كل شهر... ولصاحب العمل حق التظلم أمام الجهات المختصة إذا طلب استقطاعاً أكبر."
+    },
+    "plainLanguageExplanation": {
+      "en": "If an employee damages company property, the employer can deduct from their salary, but it is strictly capped at 5 days' wages per month unless a court rules otherwise or the worker agrees to more in writing. Furthermore, a formal grievance/investigation process must be followed.",
+      "ar": "إذا تسبب العامل في تلف آلات أو معدات صاحب العمل، يحق لصاحب العمل استقطاع جزء من راتبه، ولكن بشرط ألا يتجاوز الاستقطاع أجر 5 أيام في الشهر الواحد، ما لم يصدر حكم قضائي أو يوافق العامل كتابة على نسبة أعلى، وبعد إجراء تحقيق رسمي."
+    },
+    "keywords": [
+      "deduct",
+      "deduction",
+      "wage deduction",
+      "damage",
+      "destruction",
+      "استقطاع",
+      "خصم",
+      "تلف",
+      "دمار",
+      "هلاك آلات"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "riskPatterns": [
+      "unlimited",
+      "any amount",
+      "دون حد",
+      "دون تحقيق",
+      "أي مبالغ"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "Article Number": "Article 91",
+    "Article Title": {
+      "en": "Wage Deductions for Damaged Property",
+      "ar": "الخصم من الأجر مقابل التلفيات"
+    },
+    "Original Article Text": {
+      "en": "If a worker causes loss or destruction to tools... that belong to the employer... the employer may deduct from the worker's wage the cost of repair or replacement, provided that the deduction does not exceed five days' wages in each month... The employer may complain before the competent authorities if he wants a larger deduction.",
+      "ar": "إذا تسبب العامل في فقد أو إتلاف أو تدمير آلات أو منتجات يملكها صاحب العمل... جاز لصاحب العمل أن يقتطع من أجر العامل المبلغ اللازم للإصلاح أو لإعادة الوضع إلى ما كان عليه، على ألا يزيد ما يقتطع لهذا الغرض على أجر خمسة أيام في كل شهر... ولصاحب العمل حق التظلم أمام الجهات المختصة إذا طلب استقطاعاً أكبر."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "Contract Type": "employment",
+    "Keywords": [
+      "deduct",
+      "deduction",
+      "wage deduction",
+      "damage",
+      "destruction",
+      "استقطاع",
+      "خصم",
+      "تلف",
+      "دمار",
+      "هلاك آلات"
+    ],
+    "Risk Patterns": [
+      "unlimited",
+      "any amount",
+      "دون حد",
+      "دون تحقيق",
+      "أي مبالغ"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "If a worker causes loss or destruction to tools... that belong to the employer... the employer may deduct from the worker's wage the cost of repair or replacement, provided that the deduction does not exceed five days' wages in each month... The employer may complain before the competent authorities if he wants a larger deduction.",
+      "ar": "إذا تسبب العامل في فقد أو إتلاف أو تدمير آلات أو منتجات يملكها صاحب العمل... جاز لصاحب العمل أن يقتطع من أجر العامل المبلغ اللازم للإصلاح أو لإعادة الوضع إلى ما كان عليه، على ألا يزيد ما يقتطع لهذا الغرض على أجر خمسة أيام في كل شهر... ولصاحب العمل حق التظلم أمام الجهات المختصة إذا طلب استقطاعاً أكبر."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law",
+    "topic": "salary_deductions",
+    "subtopics": [
+      "damaged_property",
+      "equipment_loss",
+      "deduction_limits"
+    ],
+    "arabicKeywords": [
+      "استقطاع",
+      "خصم من الأجر",
+      "خصم",
+      "تلفيات",
+      "دمار",
+      "إتلاف",
+      "هلاك آلات",
+      "خسائر معدات"
+    ],
+    "englishKeywords": [
+      "wage deduction",
+      "deduct",
+      "damage",
+      "destruction",
+      "property loss"
+    ],
+    "sourceScope": "full_law",
+    "officialSourceType": "Saudi Labor Law — full official law page"
+  },
+  {
+    "referenceId": "emp_ref4",
+    "contractType": "employment",
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "articleNumber": "Article 83",
+    "articleTitle": {
+      "en": "Post-Employment Non-Compete Covenant Limits",
+      "ar": "شروط وضوابط عدم المنافسة"
+    },
+    "articleText": {
+      "en": "If the work assigned to the worker allows him to know the employer's clients... the employer may require the worker in the contract not to compete... for the agreement to be valid, it must be in writing and specific as to time, place, and type of work... provided that the duration of the agreement does not exceed two years from the date of termination.",
+      "ar": "إذا كان العمل المنوط بالعامل يسمح له بمعرفة عملاء صاحب العمل... جاز لصاحب العمل أن يشترط على العامل ألا يقوم بعد انتهاء العقد بمنافسته... ويشترط لصحة هذا الاتفاق أن يكون مكتوباً ومحدداً من حيث الزمان والمكان ونوع العمل... على ألا تزيد مدته على سنتين من تاريخ انتهاء العلاقة."
+    },
+    "plainLanguageExplanation": {
+      "en": "Non-compete clauses are allowed but must be highly specific regarding time, place, and type of work. Crucially, the time limit must not exceed 2 years from the date of contract termination.",
+      "ar": "يُسمح بشرط عدم المنافسة ولكن يجب أن يكون محدداً بدقة من حيث الزمان والمكان ونوع العمل. والأهم من ذلك، يجب ألا تزيد المدة على سنتين من تاريخ انتهاء العقد."
+    },
+    "keywords": [
+      "non-compete",
+      "compete",
+      "competitor",
+      "منافسة",
+      "عدم منافسة",
+      "شرط المنافسة",
+      "الشركات المنافسة"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "riskPatterns": [
+      "5 years",
+      "Middle East",
+      "سنوات",
+      "الشرق الأوسط"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "Article Number": "Article 83",
+    "Article Title": {
+      "en": "Post-Employment Non-Compete Covenant Limits",
+      "ar": "شروط وضوابط عدم المنافسة"
+    },
+    "Original Article Text": {
+      "en": "If the work assigned to the worker allows him to know the employer's clients... the employer may require the worker in the contract not to compete... for the agreement to be valid, it must be in writing and specific as to time, place, and type of work... provided that the duration of the agreement does not exceed two years from the date of termination.",
+      "ar": "إذا كان العمل المنوط بالعامل يسمح له بمعرفة عملاء صاحب العمل... جاز لصاحب العمل أن يشترط على العامل ألا يقوم بعد انتهاء العقد بمنافسته... ويشترط لصحة هذا الاتفاق أن يكون مكتوباً ومحدداً من حيث الزمان والمكان ونوع العمل... على ألا تزيد مدته على سنتين من تاريخ انتهاء العلاقة."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "Contract Type": "employment",
+    "Keywords": [
+      "non-compete",
+      "compete",
+      "competitor",
+      "منافسة",
+      "عدم منافسة",
+      "شرط المنافسة",
+      "الشركات المنافسة"
+    ],
+    "Risk Patterns": [
+      "5 years",
+      "Middle East",
+      "سنوات",
+      "الشرق الأوسط"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "If the work assigned to the worker allows him to know the employer's clients... the employer may require the worker in the contract not to compete... for the agreement to be valid, it must be in writing and specific as to time, place, and type of work... provided that the duration of the agreement does not exceed two years from the date of termination.",
+      "ar": "إذا كان العمل المنوط بالعامل يسمح له بمعرفة عملاء صاحب العمل... جاز لصاحب العمل أن يشترط على العامل ألا يقوم بعد انتهاء العقد بمنافسته... ويشترط لصحة هذا الاتفاق أن يكون مكتوباً ومحدداً من حيث الزمان والمكان ونوع العمل... على ألا تزيد مدته على سنتين من تاريخ انتهاء العلاقة."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law",
+    "topic": "non_compete",
+    "subtopics": [
+      "non_compete_clause",
+      "competitor_restriction",
+      "geographic_scope"
+    ],
+    "arabicKeywords": [
+      "عدم المنافسة",
+      "شرط المنافسة",
+      "منافسة",
+      "الشركات المنافسة",
+      "العمل لدى منافس"
+    ],
+    "englishKeywords": [
+      "non-compete",
+      "compete",
+      "competitor",
+      "non compete clause",
+      "competing business"
+    ],
+    "sourceScope": "full_law",
+    "officialSourceType": "Saudi Labor Law — full official law page"
+  },
+  {
+    "referenceId": "emp_ref5",
+    "contractType": "employment",
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "articleNumber": "Articles 75 & 77",
+    "articleTitle": {
+      "en": "Termination Notice and Illegitimate Contract Rescission Compensations",
+      "ar": "مهلة الإنذار والتعويض عن الإنهاء غير المشروع"
+    },
+    "articleText": {
+      "en": "Article 75: If the contract is of an indefinite duration, either party may terminate it for a valid reason... upon a written notice... not less than sixty days... Article 77: Unless the contract includes a specific compensation... the injured party shall be entitled to a compensation... equivalent to 15 days' wage for each year of service (for indefinite) or the remaining wages (for fixed-term).",
+      "ar": "المادة 75: إذا كان العقد غير محدد المدة، جاز لأي من طرفيه إنهاؤه بناءً على سبب مشروع... بموجب إخطار مكتوب... قبل الإنهاء بمدة لا تقل عن ستين يوماً... المادة 77: ما لم يتضمن العقد تعويضاً محدداً... يستحق الطرف المتضرر تعويضاً... يعادل أجر 15 يوماً عن كل سنة خدمة (غير محدد المدة) أو أجر المدة المتبقية (محدد المدة)."
+    },
+    "plainLanguageExplanation": {
+      "en": "Terminating an employee for an illegitimate reason requires compensation. For indefinite contracts, a notice period of at least 60 days is required. If the contract is fixed-term, termination before the end of the term requires paying the wages of the remaining period.",
+      "ar": "إن إنهاء العقد لسبب غير مشروع يستوجب تعويضاً مالياً. وإذا كان العقد غير محدد المدة، يلزم إخطار العامل قبل 60 يوماً على الأقل. أما إذا كان محدد المدة، فإن الإنهاء قبل انتهاء مدته يوجب تعويض العامل بأجر المدة المتبقية."
+    },
+    "keywords": [
+      "terminate",
+      "termination",
+      "notice period",
+      "dismissal",
+      "إنهاء",
+      "إنهاء العقد",
+      "فصل",
+      "إنذار",
+      "فترة إنذار"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "riskPatterns": [
+      "without cause",
+      "without any specific reason",
+      "دون إبداء أي سبب"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "Article Number": "Articles 75 & 77",
+    "Article Title": {
+      "en": "Termination Notice and Illegitimate Contract Rescission Compensations",
+      "ar": "مهلة الإنذار والتعويض عن الإنهاء غير المشروع"
+    },
+    "Original Article Text": {
+      "en": "Article 75: If the contract is of an indefinite duration, either party may terminate it for a valid reason... upon a written notice... not less than sixty days... Article 77: Unless the contract includes a specific compensation... the injured party shall be entitled to a compensation... equivalent to 15 days' wage for each year of service (for indefinite) or the remaining wages (for fixed-term).",
+      "ar": "المادة 75: إذا كان العقد غير محدد المدة، جاز لأي من طرفيه إنهاؤه بناءً على سبب مشروع... بموجب إخطار مكتوب... قبل الإنهاء بمدة لا تقل عن ستين يوماً... المادة 77: ما لم يتضمن العقد تعويضاً محدداً... يستحق الطرف المتضرر تعويضاً... يعادل أجر 15 يوماً عن كل سنة خدمة (غير محدد المدة) أو أجر المدة المتبقية (محدد المدة)."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "Contract Type": "employment",
+    "Keywords": [
+      "terminate",
+      "termination",
+      "notice period",
+      "dismissal",
+      "إنهاء",
+      "إنهاء العقد",
+      "فصل",
+      "إنذار",
+      "فترة إنذار"
+    ],
+    "Risk Patterns": [
+      "without cause",
+      "without any specific reason",
+      "دون إبداء أي سبب"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "Article 75: If the contract is of an indefinite duration, either party may terminate it for a valid reason... upon a written notice... not less than sixty days... Article 77: Unless the contract includes a specific compensation... the injured party shall be entitled to a compensation... equivalent to 15 days' wage for each year of service (for indefinite) or the remaining wages (for fixed-term).",
+      "ar": "المادة 75: إذا كان العقد غير محدد المدة، جاز لأي من طرفيه إنهاؤه بناءً على سبب مشروع... بموجب إخطار مكتوب... قبل الإنهاء بمدة لا تقل عن ستين يوماً... المادة 77: ما لم يتضمن العقد تعويضاً محدداً... يستحق الطرف المتضرر تعويضاً... يعادل أجر 15 يوماً عن كل سنة خدمة (غير محدد المدة) أو أجر المدة المتبقية (محدد المدة)."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law",
+    "topic": "contract_termination",
+    "subtopics": [
+      "notice_period",
+      "unlawful_termination",
+      "cancellation_compensation"
+    ],
+    "arabicKeywords": [
+      "إنهاء العقد",
+      "إنهاء",
+      "فصل",
+      "إنذار",
+      "فترة إنذار",
+      "مهلة الإنذار",
+      "إخطار كتابي",
+      "فسخ العقد",
+      "تعويض الإنهاء"
+    ],
+    "englishKeywords": [
+      "contract termination",
+      "terminate",
+      "notice period",
+      "dismissal",
+      "resignation compensation"
+    ],
+    "sourceScope": "full_law",
+    "officialSourceType": "Saudi Labor Law — full official law page"
+  },
+  {
+    "referenceId": "emp_ref6",
+    "contractType": "employment",
+    "topic": "salary_payment",
+    "subtopics": [
+      "base_salary",
+      "wage_payment_schedule",
+      "bank_transfer"
+    ],
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "articleNumber": "Article 90",
+    "articleTitle": {
+      "en": "Payment of Wages Schedule and Bank Transfer Regulations",
+      "ar": "مواعيد وطريقة أداء الأجور"
+    },
+    "articleText": {
+      "en": "Wages and any amounts due to workers must be paid in the official currency of the Kingdom... Wages must be paid on their specified due dates through accredited banks in the Kingdom.",
+      "ar": "تؤدى أجور العمال وكل مبلغ مستحق لهم بالعملة الرسمية للبلاد. ويجب أداء الأجر في مواعيد استحقاقه المحددة... تؤدى الأجور عن طريق البنوك المعتمدة في المملكة."
+    },
+    "plainLanguageExplanation": {
+      "en": "Wages must be paid in Saudi Riyals on agreed due dates directly through accredited Saudi banks via the Wage Protection System.",
+      "ar": "يجب أن تُدفع أجور العمال بالريال السعودي في مواعيد استحقاقها المحددة من خلال البنوك المعتمدة في المملكة وفق برنامج حماية الأجور."
+    },
+    "keywords": [
+      "salary",
+      "wages",
+      "payment",
+      "bank transfer",
+      "monthly wage",
+      "أجر",
+      "أجور",
+      "راتب",
+      "رواتب",
+      "تحويل الراتب",
+      "أجر أساسي",
+      "مواعيد الأداء",
+      "الحساب البنكي"
+    ],
+    "arabicKeywords": [
+      "أجر",
+      "أجور",
+      "راتب",
+      "رواتب",
+      "أجر أساسي",
+      "تحويل الراتب",
+      "مواعيد أداء الأجور",
+      "الحساب البنكي"
+    ],
+    "englishKeywords": [
+      "salary",
+      "wages",
+      "base salary",
+      "monthly salary",
+      "payment schedule",
+      "bank transfer"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "riskPatterns": [
+      "cash payment",
+      "delayed salary",
+      "دفعة نقداً",
+      "تأخير الرواتب"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "Article Number": "Article 90",
+    "Article Title": {
+      "en": "Payment of Wages Schedule and Bank Transfer Regulations",
+      "ar": "مواعيد وطريقة أداء الأجور"
+    },
+    "Original Article Text": {
+      "en": "Wages and any amounts due to workers must be paid in the official currency of the Kingdom... Wages must be paid on their specified due dates through accredited banks in the Kingdom.",
+      "ar": "تؤدى أجور العمال وكل مبلغ مستحق لهم بالعملة الرسمية للبلاد. ويجب أداء الأجر في مواعيد استحقاقه المحددة... تؤدى الأجور عن طريق البنوك المعتمدة في المملكة."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "Contract Type": "employment",
+    "Keywords": [
+      "salary",
+      "wages",
+      "payment",
+      "bank transfer",
+      "monthly wage",
+      "أجر",
+      "أجور",
+      "راتب",
+      "رواتب",
+      "تحويل الراتب",
+      "أجر أساسي",
+      "مواعيد الأداء",
+      "الحساب البنكي"
+    ],
+    "Risk Patterns": [
+      "cash payment",
+      "delayed salary",
+      "دفعة نقداً",
+      "تأخير الرواتب"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "Wages and any amounts due to workers must be paid in the official currency of the Kingdom... Wages must be paid on their specified due dates through accredited banks in the Kingdom.",
+      "ar": "تؤدى أجور العمال وكل مبلغ مستحق لهم بالعملة الرسمية للبلاد. ويجب أداء الأجر في مواعيد استحقاقه المحددة... تؤدى الأجور عن طريق البنوك المعتمدة في المملكة."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "dateAdded": "2026-08-03T12:45:00Z",
+    "lastUpdated": "2026-08-03T12:45:00Z",
+    "version": "v5.0",
+    "status": "Active",
+    "urlType": "law",
+    "sourceScope": "full_law",
+    "officialSourceType": "Saudi Labor Law — full official law page"
+  },
+  {
+    "referenceId": "emp_ref7",
+    "contractType": "employment",
+    "topic": "overtime",
+    "subtopics": [
+      "overtime_rate",
+      "extra_hours",
+      "holiday_work"
+    ],
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "articleNumber": "Article 107",
+    "articleTitle": {
+      "en": "Overtime Working Hours and Rate Compensation",
+      "ar": "أجر العمل الإضافي والنسبة المستحقة"
+    },
+    "articleText": {
+      "en": "The employer must pay the worker an overtime wage for additional work hours equivalent to the hourly rate plus 50% of the basic hourly wage. All working hours performed on holidays and official feasts are considered overtime hours.",
+      "ar": "يجب على صاحب العمل أن يدفع للعامل أجراء إضافيا عن ساعات العمل الإضافية يوازي أجر الساعة مضافاً إليه 50% من أجر الساعة الأساسي. وتعد جميع ساعات العمل التي تؤدى في أيام العطل والأعياد ساعات إضافية."
+    },
+    "plainLanguageExplanation": {
+      "en": "Overtime hours must be compensated at the regular hourly rate plus a 50% bonus on the basic wage. Working on official holidays is automatically deemed overtime.",
+      "ar": "يجب تعويض ساعات العمل الإضافية بأجر الساعة الاعتيادي مضافاً إليه 50% من الأجر الأساسي. وتعتبر أي ساعات عمل في العطل والأعياد ساعات إضافية بحكم النظام."
+    },
+    "keywords": [
+      "overtime",
+      "extra hours",
+      "overtime rate",
+      "50%",
+      "عمل إضافي",
+      "ساعات إضافية",
+      "العمل الإضافي",
+      "أجر إضافي",
+      "إضافي"
+    ],
+    "arabicKeywords": [
+      "عمل إضافي",
+      "ساعات إضافية",
+      "العمل الإضافي",
+      "أجر إضافي",
+      "إضافي",
+      "ساعات زيادة"
+    ],
+    "englishKeywords": [
+      "overtime",
+      "extra hours",
+      "overtime pay",
+      "additional hours",
+      "holiday work"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "riskPatterns": [
+      "without additional pay",
+      "no overtime pay",
+      "بدون أجر إضافي",
+      "دون تعويض إضافي"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "Article Number": "Article 107",
+    "Article Title": {
+      "en": "Overtime Working Hours and Rate Compensation",
+      "ar": "أجر العمل الإضافي والنسبة المستحقة"
+    },
+    "Original Article Text": {
+      "en": "The employer must pay the worker an overtime wage for additional work hours equivalent to the hourly rate plus 50% of the basic hourly wage. All working hours performed on holidays and official feasts are considered overtime hours.",
+      "ar": "يجب على صاحب العمل أن يدفع للعامل أجراء إضافيا عن ساعات العمل الإضافية يوازي أجر الساعة مضافاً إليه 50% من أجر الساعة الأساسي. وتعد جميع ساعات العمل التي تؤدى في أيام العطل والأعياد ساعات إضافية."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "Contract Type": "employment",
+    "Keywords": [
+      "overtime",
+      "extra hours",
+      "overtime rate",
+      "50%",
+      "عمل إضافي",
+      "ساعات إضافية",
+      "العمل الإضافي",
+      "أجر إضافي",
+      "إضافي"
+    ],
+    "Risk Patterns": [
+      "without additional pay",
+      "no overtime pay",
+      "بدون أجر إضافي",
+      "دون تعويض إضافي"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "The employer must pay the worker an overtime wage for additional work hours equivalent to the hourly rate plus 50% of the basic hourly wage. All working hours performed on holidays and official feasts are considered overtime hours.",
+      "ar": "يجب على صاحب العمل أن يدفع للعامل أجراء إضافيا عن ساعات العمل الإضافية يوازي أجر الساعة مضافاً إليه 50% من أجر الساعة الأساسي. وتعد جميع ساعات العمل التي تؤدى في أيام العطل والأعياد ساعات إضافية."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "dateAdded": "2026-08-03T12:45:00Z",
+    "lastUpdated": "2026-08-03T12:45:00Z",
+    "version": "v5.0",
+    "status": "Active",
+    "urlType": "law",
+    "sourceScope": "full_law",
+    "officialSourceType": "Saudi Labor Law — full official law page"
+  },
+  {
+    "referenceId": "emp_ref8",
+    "contractType": "employment",
+    "topic": "annual_leave",
+    "subtopics": [
+      "annual_vacation",
+      "paid_leave_entitlement",
+      "service_duration_boost"
+    ],
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "articleNumber": "Article 109",
+    "articleTitle": {
+      "en": "Annual Paid Leave Entitlement and Duration",
+      "ar": "الاستحقاق في الإجازة السنوية المدفوعة"
+    },
+    "articleText": {
+      "en": "A worker is entitled to an annual paid leave of not less than twenty-one days, which shall be increased to not less than thirty days if the worker completes five consecutive years in the service of the employer. The leave must be paid in advance.",
+      "ar": "يستحق العامل عن كل عام إجازة سنوية لا تقل مدتها عن إحدى وعشرين يوماً، تزاد إلى مدة لا تقل عن ثلاثين يوماً إذا أمضى العامل في خدمة صاحب العمل خمس سنوات متصلة، وتكون الإجازة بأجر مدفوع مقدماً."
+    },
+    "plainLanguageExplanation": {
+      "en": "Employees are statutory entitled to a minimum of 21 days of paid annual leave per year, increasing to 30 days after completing 5 consecutive years of service. Leave pay must be disbursed in advance.",
+      "ar": "يستحق الموظف إجازة سنوية مدفوعة الأجر لا تقل عن 21 يوماً سنوياً، ترتفع إلى 30 يوماً بعد إكمال 5 سنوات متصلة في الخدمة، وتدفع مستحقات الإجازة مقدماً."
+    },
+    "keywords": [
+      "annual leave",
+      "paid leave",
+      "vacation",
+      "21 days",
+      "30 days",
+      "إجازة سنوية",
+      "إجازة مدفوعة",
+      "الإجازة السنوية",
+      "رصيد الإجازات",
+      "استحقاق الإجازة",
+      "عطلة سنوية"
+    ],
+    "arabicKeywords": [
+      "إجازة سنوية",
+      "الإجازة السنوية",
+      "إجازة مدفوعة",
+      "رصيد الإجازات",
+      "استحقاق الإجازة",
+      "عطلة سنوية"
+    ],
+    "englishKeywords": [
+      "annual leave",
+      "paid leave",
+      "annual vacation",
+      "leave entitlement",
+      "vacation days"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "riskPatterns": [
+      "less than 21 days",
+      "unpaid annual leave",
+      "أقل من 21 يوماً",
+      "إجازة غير مدفوعة"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "Article Number": "Article 109",
+    "Article Title": {
+      "en": "Annual Paid Leave Entitlement and Duration",
+      "ar": "الاستحقاق في الإجازة السنوية المدفوعة"
+    },
+    "Original Article Text": {
+      "en": "A worker is entitled to an annual paid leave of not less than twenty-one days, which shall be increased to not less than thirty days if the worker completes five consecutive years in the service of the employer. The leave must be paid in advance.",
+      "ar": "يستحق العامل عن كل عام إجازة سنوية لا تقل مدتها عن إحدى وعشرين يوماً، تزاد إلى مدة لا تقل عن ثلاثين يوماً إذا أمضى العامل في خدمة صاحب العمل خمس سنوات متصلة، وتكون الإجازة بأجر مدفوع مقدماً."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "Contract Type": "employment",
+    "Keywords": [
+      "annual leave",
+      "paid leave",
+      "vacation",
+      "21 days",
+      "30 days",
+      "إجازة سنوية",
+      "إجازة مدفوعة",
+      "الإجازة السنوية",
+      "رصيد الإجازات",
+      "استحقاق الإجازة",
+      "عطلة سنوية"
+    ],
+    "Risk Patterns": [
+      "less than 21 days",
+      "unpaid annual leave",
+      "أقل من 21 يوماً",
+      "إجازة غير مدفوعة"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "A worker is entitled to an annual paid leave of not less than twenty-one days, which shall be increased to not less than thirty days if the worker completes five consecutive years in the service of the employer. The leave must be paid in advance.",
+      "ar": "يستحق العامل عن كل عام إجازة سنوية لا تقل مدتها عن إحدى وعشرين يوماً، تزاد إلى مدة لا تقل عن ثلاثين يوماً إذا أمضى العامل في خدمة صاحب العمل خمس سنوات متصلة، وتكون الإجازة بأجر مدفوع مقدماً."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "dateAdded": "2026-08-03T12:45:00Z",
+    "lastUpdated": "2026-08-03T12:45:00Z",
+    "version": "v5.0",
+    "status": "Active",
+    "urlType": "law",
+    "sourceScope": "full_law",
+    "officialSourceType": "Saudi Labor Law — full official law page"
+  },
+  {
+    "referenceId": "emp_ref9",
+    "contractType": "employment",
+    "topic": "sick_leave",
+    "subtopics": [
+      "sick_leave_pay",
+      "medical_leave",
+      "wage_progression"
+    ],
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "articleNumber": "Article 117",
+    "articleTitle": {
+      "en": "Sick Leave Allowance and Wage Progression",
+      "ar": "الاستحقاق في الإجازة المرضية وتدرج الأجر"
+    },
+    "articleText": {
+      "en": "A worker whose illness is proven has the right to a sick leave with full pay for the first thirty days, three-quarters pay for the next sixty days, and without pay for the subsequent thirty days within a single year.",
+      "ar": "للعامل الذي يثبت مرضه الحق في إجازة مرضية مدفوعة الأجر عن الثلاثين يوماً الأولى، وبثلاثة أرباع الأجر عن الستين يوماً التالية، وبدون أجر للثلاثين يوماً التي تلي ذلك خلال السنة الواحدة."
+    },
+    "plainLanguageExplanation": {
+      "en": "Statutory sick leave within a single year is structured as: first 30 days fully paid, next 60 days at 75% pay, and remaining 30 days unpaid.",
+      "ar": "تتوزع الإجازة المرضية المستحقة خلال السنة الواحدة كالتالي: الـ 30 يوماً الأولى بأجر كامل، والـ 60 يوماً التالية بـ 75% من الأجر، والـ 30 يوماً الأخيرة بدون أجر."
+    },
+    "keywords": [
+      "sick leave",
+      "medical leave",
+      "illness",
+      "إجازة مرضية",
+      "إجازة مرضي",
+      "تقرير طبي",
+      "إجازات مرضية",
+      "مرض"
+    ],
+    "arabicKeywords": [
+      "إجازة مرضية",
+      "إجازة مرضي",
+      "تقرير طبي",
+      "إجازات مرضية",
+      "المرض"
+    ],
+    "englishKeywords": [
+      "sick leave",
+      "medical leave",
+      "illness leave",
+      "sick pay"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "riskPatterns": [
+      "no sick leave",
+      "unpaid sick leave from day one",
+      "بدون إجازة مرضية",
+      "إجازة مرضية غير مدفوعة"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "Article Number": "Article 117",
+    "Article Title": {
+      "en": "Sick Leave Allowance and Wage Progression",
+      "ar": "الاستحقاق في الإجازة المرضية وتدرج الأجر"
+    },
+    "Original Article Text": {
+      "en": "A worker whose illness is proven has the right to a sick leave with full pay for the first thirty days, three-quarters pay for the next sixty days, and without pay for the subsequent thirty days within a single year.",
+      "ar": "للعامل الذي يثبت مرضه الحق في إجازة مرضية مدفوعة الأجر عن الثلاثين يوماً الأولى، وبثلاثة أرباع الأجر عن الستين يوماً التالية، وبدون أجر للثلاثين يوماً التي تلي ذلك خلال السنة الواحدة."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "Contract Type": "employment",
+    "Keywords": [
+      "sick leave",
+      "medical leave",
+      "illness",
+      "إجازة مرضية",
+      "إجازة مرضي",
+      "تقرير طبي",
+      "إجازات مرضية",
+      "مرض"
+    ],
+    "Risk Patterns": [
+      "no sick leave",
+      "unpaid sick leave from day one",
+      "بدون إجازة مرضية",
+      "إجازة مرضية غير مدفوعة"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "A worker whose illness is proven has the right to a sick leave with full pay for the first thirty days, three-quarters pay for the next sixty days, and without pay for the subsequent thirty days within a single year.",
+      "ar": "للعامل الذي يثبت مرضه الحق في إجازة مرضية مدفوعة الأجر عن الثلاثين يوماً الأولى، وبثلاثة أرباع الأجر عن الستين يوماً التالية، وبدون أجر للثلاثين يوماً التي تلي ذلك خلال السنة الواحدة."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "dateAdded": "2026-08-03T12:45:00Z",
+    "lastUpdated": "2026-08-03T12:45:00Z",
+    "version": "v5.0",
+    "status": "Active",
+    "urlType": "law",
+    "sourceScope": "full_law",
+    "officialSourceType": "Saudi Labor Law — full official law page"
+  },
+  {
+    "referenceId": "emp_ref10",
+    "contractType": "employment",
+    "topic": "end_of_service",
+    "subtopics": [
+      "severance_gratuity",
+      "resignation_calculation",
+      "end_of_service_benefit"
+    ],
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "articleNumber": "Articles 84 & 85",
+    "articleTitle": {
+      "en": "End-of-Service Gratuity Computation and Resignation Proration",
+      "ar": "مكافأة نهاية الخدمة وحالات الاستحقاق عند الاستقالة"
+    },
+    "articleText": {
+      "en": "Article 84: Upon termination of the employment relationship, the employer must pay the worker an end-of-service gratuity calculated on the basis of half a month's wage for each of the first five years, and a full month's wage for each subsequent year... Article 85: If termination is due to worker resignation, the worker receives one-third gratuity for 2–5 years of service, two-thirds for 5–10 years, and full gratuity for 10 or more years.",
+      "ar": "المادة 84: إذا انتهت علاقة العمل وجب على صاحب العمل أن يدفع إلى العامل مكافأة عن مدة خدمته تحسب على أساس أجر نصف شهر عن كل سنة من السنوات الخمس الأولى، وأجر شهر عن كل سنة من السنوات التالية... المادة 85: إذا كان انتهاء علاقة العمل بسبب استقالة العامل يستحق ثلث المكافأة بعد خدمة لا تقل عن سنتين متتاليتين، وثلثيها إذا بلغت خدمته خمس سنوات ولم تبلغ عشر سنوات، والمكافأة كاملة إذا بلغت خدمته عشر سنوات."
+    },
+    "plainLanguageExplanation": {
+      "en": "End-of-service benefits are statutory: half a month's salary per year for the first 5 years, and 1 full month's salary for each subsequent year. In cases of resignation, tiered percentages apply based on total years of continuous service.",
+      "ar": "تُحسب مكافأة نهاية الخدمة بنصف أجر شهر عن كل سنة من السنوات الخمس الأولى، وأجر شهر كامل عن كل سنة تالية. وفي حال الاستقالة، تتدرج النسبة المستحقة بحسب سنوات الخدمة المتصلة."
+    },
+    "keywords": [
+      "end of service",
+      "severance",
+      "gratuity",
+      "ESB",
+      "resignation",
+      "مكافأة نهاية الخدمة",
+      "نهاية الخدمة",
+      "مكافأه نهاية الخدمه",
+      "استقالة",
+      "مكافأة الخدمة"
+    ],
+    "arabicKeywords": [
+      "مكافأة نهاية الخدمة",
+      "نهاية الخدمة",
+      "مكافأه نهاية الخدمه",
+      "استقالة",
+      "مكافأة الخدمة",
+      "مستحقات نهاية الخدمة"
+    ],
+    "englishKeywords": [
+      "end of service",
+      "severance gratuity",
+      "end of service benefit",
+      "resignation payout",
+      "ESB"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "riskPatterns": [
+      "no end of service benefit",
+      "waive severance",
+      "تنازل عن مكافأة نهاية الخدمة",
+      "دون مكافأة نهاية خدمة"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "Article Number": "Articles 84 & 85",
+    "Article Title": {
+      "en": "End-of-Service Gratuity Computation and Resignation Proration",
+      "ar": "مكافأة نهاية الخدمة وحالات الاستحقاق عند الاستقالة"
+    },
+    "Original Article Text": {
+      "en": "Article 84: Upon termination of the employment relationship, the employer must pay the worker an end-of-service gratuity calculated on the basis of half a month's wage for each of the first five years, and a full month's wage for each subsequent year... Article 85: If termination is due to worker resignation, the worker receives one-third gratuity for 2–5 years of service, two-thirds for 5–10 years, and full gratuity for 10 or more years.",
+      "ar": "المادة 84: إذا انتهت علاقة العمل وجب على صاحب العمل أن يدفع إلى العامل مكافأة عن مدة خدمته تحسب على أساس أجر نصف شهر عن كل سنة من السنوات الخمس الأولى، وأجر شهر عن كل سنة من السنوات التالية... المادة 85: إذا كان انتهاء علاقة العمل بسبب استقالة العامل يستحق ثلث المكافأة بعد خدمة لا تقل عن سنتين متتاليتين، وثلثيها إذا بلغت خدمته خمس سنوات ولم تبلغ عشر سنوات، والمكافأة كاملة إذا بلغت خدمته عشر سنوات."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "Contract Type": "employment",
+    "Keywords": [
+      "end of service",
+      "severance",
+      "gratuity",
+      "ESB",
+      "resignation",
+      "مكافأة نهاية الخدمة",
+      "نهاية الخدمة",
+      "مكافأه نهاية الخدمه",
+      "استقالة",
+      "مكافأة الخدمة"
+    ],
+    "Risk Patterns": [
+      "no end of service benefit",
+      "waive severance",
+      "تنازل عن مكافأة نهاية الخدمة",
+      "دون مكافأة نهاية خدمة"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "Article 84: Upon termination of the employment relationship, the employer must pay the worker an end-of-service gratuity calculated on the basis of half a month's wage for each of the first five years, and a full month's wage for each subsequent year... Article 85: If termination is due to worker resignation, the worker receives one-third gratuity for 2–5 years of service, two-thirds for 5–10 years, and full gratuity for 10 or more years.",
+      "ar": "المادة 84: إذا انتهت علاقة العمل وجب على صاحب العمل أن يدفع إلى العامل مكافأة عن مدة خدمته تحسب على أساس أجر نصف شهر عن كل سنة من السنوات الخمس الأولى، وأجر شهر عن كل سنة من السنوات التالية... المادة 85: إذا كان انتهاء علاقة العمل بسبب استقالة العامل يستحق ثلث المكافأة بعد خدمة لا تقل عن سنتين متتاليتين، وثلثيها إذا بلغت خدمته خمس سنوات ولم تبلغ عشر سنوات، والمكافأة كاملة إذا بلغت خدمته عشر سنوات."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "dateAdded": "2026-08-03T12:45:00Z",
+    "lastUpdated": "2026-08-03T12:45:00Z",
+    "version": "v5.0",
+    "status": "Active",
+    "urlType": "law",
+    "sourceScope": "full_law",
+    "officialSourceType": "Saudi Labor Law — full official law page"
+  },
+  {
+    "referenceId": "emp_ref11",
+    "contractType": "employment",
+    "topic": "employee_duties",
+    "subtopics": [
+      "trade_secrets",
+      "work_performance",
+      "care_of_tools"
+    ],
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "articleNumber": "Article 65",
+    "articleTitle": {
+      "en": "Core Duties and Conduct Obligations of the Employee",
+      "ar": "الالتزامات الأساسية الملقاة على عاتق العامل"
+    },
+    "articleText": {
+      "en": "The worker must perform work according to professional standards and instructions of the employer provided they do not violate the contract or law... take proper care of tools and items entrusted to him... and maintain the technical, industrial, and commercial trade secrets of the establishment.",
+      "ar": "يجب على العامل أن ينجز العمل وفقاً لأصول المهنة ووفق تعليمات صاحب العمل إذا لم يكن فيها ما يخالف العقد أو النظام... وأن يعتني عناية كافية بالآلات والأدوات والمهمات المعهودة إليه... وأن يحفظ الأسرار الفنية والصناعية والتجارية للمنشأة."
+    },
+    "plainLanguageExplanation": {
+      "en": "Employees are legally bound to perform work professionally, follow lawful management instructions, safeguard company property, and strictly maintain trade and technical secrets.",
+      "ar": "يلتزم الموظف نظاماً بأداء عمله بإتقان وفق التعليمات النظامية، والحفاظ على ممتلكات المنشأة وآلاتها، وعدم إفشاء الأسرار الفنية أو التجارية للعمل."
+    },
+    "keywords": [
+      "employee duties",
+      "conduct",
+      "trade secrets",
+      "confidentiality",
+      "التزامات العامل",
+      "واجبات الموظف",
+      "سرية المعلومات",
+      "الأسرار التجارية",
+      "حفظ الأسرار"
+    ],
+    "arabicKeywords": [
+      "التزامات العامل",
+      "واجبات الموظف",
+      "سرية المعلومات",
+      "الأسرار التجارية",
+      "حفظ الأسرار",
+      "العناية بالآلات"
+    ],
+    "englishKeywords": [
+      "employee duties",
+      "worker obligations",
+      "trade secrets",
+      "confidentiality",
+      "care of tools"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "riskPatterns": [
+      "disclose secrets",
+      "refuse instructions",
+      "إفشاء الأسرار",
+      "مخالفة التعليمات"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "Article Number": "Article 65",
+    "Article Title": {
+      "en": "Core Duties and Conduct Obligations of the Employee",
+      "ar": "الالتزامات الأساسية الملقاة على عاتق العامل"
+    },
+    "Original Article Text": {
+      "en": "The worker must perform work according to professional standards and instructions of the employer provided they do not violate the contract or law... take proper care of tools and items entrusted to him... and maintain the technical, industrial, and commercial trade secrets of the establishment.",
+      "ar": "يجب على العامل أن ينجز العمل وفقاً لأصول المهنة ووفق تعليمات صاحب العمل إذا لم يكن فيها ما يخالف العقد أو النظام... وأن يعتني عناية كافية بالآلات والأدوات والمهمات المعهودة إليه... وأن يحفظ الأسرار الفنية والصناعية والتجارية للمنشأة."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "Contract Type": "employment",
+    "Keywords": [
+      "employee duties",
+      "conduct",
+      "trade secrets",
+      "confidentiality",
+      "التزامات العامل",
+      "واجبات الموظف",
+      "سرية المعلومات",
+      "الأسرار التجارية",
+      "حفظ الأسرار"
+    ],
+    "Risk Patterns": [
+      "disclose secrets",
+      "refuse instructions",
+      "إفشاء الأسرار",
+      "مخالفة التعليمات"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "The worker must perform work according to professional standards and instructions of the employer provided they do not violate the contract or law... take proper care of tools and items entrusted to him... and maintain the technical, industrial, and commercial trade secrets of the establishment.",
+      "ar": "يجب على العامل أن ينجز العمل وفقاً لأصول المهنة ووفق تعليمات صاحب العمل إذا لم يكن فيها ما يخالف العقد أو النظام... وأن يعتني عناية كافية بالآلات والأدوات والمهمات المعهودة إليه... وأن يحفظ الأسرار الفنية والصناعية والتجارية للمنشأة."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "dateAdded": "2026-08-03T12:45:00Z",
+    "lastUpdated": "2026-08-03T12:45:00Z",
+    "version": "v5.0",
+    "status": "Active",
+    "urlType": "law",
+    "sourceScope": "full_law",
+    "officialSourceType": "Saudi Labor Law — full official law page"
+  },
+  {
+    "referenceId": "emp_ref12",
+    "contractType": "employment",
+    "topic": "employer_duties",
+    "subtopics": [
+      "dignity_respect",
+      "wage_retention_ban",
+      "employer_obligations"
+    ],
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "articleNumber": "Article 61",
+    "articleTitle": {
+      "en": "General Duty of Care and Fair Treatment Obligations of Employer",
+      "ar": "الالتزامات العامة الملقاة على صاحب العمل"
+    },
+    "articleText": {
+      "en": "In addition to statutory obligations, the employer must refrain from withholding any part of the worker's wages without a judicial order, treat workers with proper respect, and abstain from any word or act that infringes upon their dignity or religion.",
+      "ar": "بالإضافة إلى الالتزامات المنصوص عليها في هذا النظام واللوائح... يجب على صاحب العمل أن يمتنع عن استعباد العامل أو احتجاز أجرته أو جزء منها دون سند قضائي، وأن يعامل عماله بالاحترام اللائق، وأن يمتنع عن كل قول أو فعل يمس كرامتهم أو دينهم."
+    },
+    "plainLanguageExplanation": {
+      "en": "Employers are legally prohibited from withholding employee wages without a court order, and must treat all employees with full dignity, fairness, and respect.",
+      "ar": "يحظر على صاحب العمل نظاماً احتجاز راتب الموظف أو جزء منه دون حكم قضائي، كما يلتزم بمعاملة الموظفين باحترام وحفظ كرامتهم."
+    },
+    "keywords": [
+      "employer duties",
+      "obligations",
+      "fair treatment",
+      "dignity",
+      "التزامات صاحب العمل",
+      "واجبات الشركة",
+      "حفظ الكرامة",
+      "احتجاز الراتب",
+      "الاحترام اللائق"
+    ],
+    "arabicKeywords": [
+      "التزامات صاحب العمل",
+      "واجبات الشركة",
+      "حفظ الكرامة",
+      "احتجاز الراتب",
+      "الاحترام اللائق"
+    ],
+    "englishKeywords": [
+      "employer duties",
+      "employer obligations",
+      "fair treatment",
+      "wage retention ban",
+      "respect and dignity"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "riskPatterns": [
+      "withhold salary",
+      "infringe dignity",
+      "احتجاز الراتب",
+      "المساس بالكرامة"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Labor Law",
+      "ar": "نظام العمل السعودي"
+    },
+    "Article Number": "Article 61",
+    "Article Title": {
+      "en": "General Duty of Care and Fair Treatment Obligations of Employer",
+      "ar": "الالتزامات العامة الملقاة على صاحب العمل"
+    },
+    "Original Article Text": {
+      "en": "In addition to statutory obligations, the employer must refrain from withholding any part of the worker's wages without a judicial order, treat workers with proper respect, and abstain from any word or act that infringes upon their dignity or religion.",
+      "ar": "بالإضافة إلى الالتزامات المنصوص عليها في هذا النظام واللوائح... يجب على صاحب العمل أن يمتنع عن استعباد العامل أو احتجاز أجرته أو جزء منها دون سند قضائي، وأن يعامل عماله بالاحترام اللائق، وأن يمتنع عن كل قول أو فعل يمس كرامتهم أو دينهم."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "Contract Type": "employment",
+    "Keywords": [
+      "employer duties",
+      "obligations",
+      "fair treatment",
+      "dignity",
+      "التزامات صاحب العمل",
+      "واجبات الشركة",
+      "حفظ الكرامة",
+      "احتجاز الراتب",
+      "الاحترام اللائق"
+    ],
+    "Risk Patterns": [
+      "withhold salary",
+      "infringe dignity",
+      "احتجاز الراتب",
+      "المساس بالكرامة"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "In addition to statutory obligations, the employer must refrain from withholding any part of the worker's wages without a judicial order, treat workers with proper respect, and abstain from any word or act that infringes upon their dignity or religion.",
+      "ar": "بالإضافة إلى الالتزامات المنصوص عليها في هذا النظام واللوائح... يجب على صاحب العمل أن يمتنع عن استعباد العامل أو احتجاز أجرته أو جزء منها دون سند قضائي، وأن يعامل عماله بالاحترام اللائق، وأن يمتنع عن كل قول أو فعل يمس كرامتهم أو دينهم."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1",
+    "dateAdded": "2026-08-03T12:45:00Z",
+    "lastUpdated": "2026-08-03T12:45:00Z",
+    "version": "v5.0",
+    "status": "Active",
+    "urlType": "law",
+    "sourceScope": "full_law",
+    "officialSourceType": "Saudi Labor Law — full official law page"
+  }
+]

@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bayyin | بيّن - منصة تحليل العقود السعودية</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=8">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+
+
+  <!-- Style Link -->
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo" id="nav-logo" title="الرئيسية / Home">
+        <span class="logo-primary"><i class="fa-solid fa-scale-balanced"></i> Bayyin</span> | بيّن
+      </a>
+      <div class="nav-actions">
+        <!-- Language Switcher Button -->
+        <button class="btn btn-secondary language-switch" id="lang-toggle-btn" title="تغيير اللغة / Change Language" aria-label="تغيير اللغة">
+          English
+        </button>
+        <!-- Theme Toggle Icon Button -->
+        <button class="icon-btn" id="theme-toggle-btn" aria-label="تغيير المظهر / Toggle Theme" title="الوضع الداكن / Dark Mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <!-- My Account Icon Button -->
+        <button class="icon-btn" id="nav-account-btn" style="display: none;" aria-label="حسابي / My Account" title="حسابي">
+          <i class="fa-solid fa-user"></i>
+        </button>
+        <!-- User Account Auth (Sign Out / Sign In) Icon Button -->
+        <button class="icon-btn" id="nav-auth-btn" aria-label="تسجيل الدخول / Sign In" title="تسجيل الدخول">
+          <i class="fa-solid fa-arrow-right-to-bracket" id="nav-auth-icon"></i>
+        </button>
+        <!-- CTA (Hidden from header per design direction) -->
+        <button class="btn btn-primary" id="header-cta-btn" style="display: none;">
+          <span data-localize="nav_analyze">حلل عقدك</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main>
+    
+    <!-- VIEW 1: LANDING PAGE -->
+    <section class="view-section active" id="view-landing">
+      <!-- Hero Section -->
+      <div class="hero">
+        <h1 id="landing-tagline">اعرف ما توقّع عليه قبل أن توقّع</h1>
+        <p id="landing-subtagline">بيّن هي منصتك الذكية الموثوقة لتفسير وتحليل عقودك ومقارنتها بالأنظمة واللوائح المعمول بها في المملكة العربية السعودية قبل تصدِيقها.</p>
+        <div class="hero-cta">
+          <button class="btn btn-primary btn-large" id="landing-cta-btn">
+            <span data-localize="cta_analyze">ابدأ تحليل العقد الآن</span>
+            <i class="fa-solid fa-arrow-left arrow-icon"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Features Section -->
+      <div class="section-title">
+        <h2 data-localize="features_title">لماذا منصة بيّن؟</h2>
+        <p data-localize="features_sub">مزايا متقدمة لتوفير الحماية والأمان القانوني لالتزاماتك</p>
+      </div>
+      
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3 data-localize="feat1_title">تحليل مدعوم باللوائح السعودية</h3>
+          <p data-localize="feat1_desc">نطابق بنود العقد صراحةً مع الأنظمة الصادرة عن هيئة الخبراء بمجلس الوزراء ووزارة العدل والبنك المركزي وغيرها.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-user-tie"></i></div>
+          <h3 data-localize="feat2_title">تفسير بتبسيط لغوي</h3>
+          <p data-localize="feat2_desc">نحول النصوص القانونية المعقدة إلى شروحات مبسطة ولغة واضحة يفهمها الجميع دون الحاجة لخلفية قانونية.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-route"></i></div>
+          <h3 data-localize="feat3_title">مسار الاستدلال الشفاف</h3>
+          <p data-localize="feat3_desc">نستعرض لك خطوة بخطوة كيف توصل الذكاء الاصطناعي لتصنيف مخاطر البند، وتتبع البند حتى مادته القانونية المعتمدة.</p>
+        </div>
+      </div>
+
+      <!-- How it Works Section -->
+      <div class="how-it-works">
+        <div class="section-title">
+          <h2 data-localize="how_title">كيف تعمل المنصة؟</h2>
+          <p data-localize="how_sub">ثلاث خطوات بسيطة تفصلك عن حماية نفسك قبل التوقيع</p>
+        </div>
+        <div class="steps-container">
+          <div class="step-item">
+            <div class="step-num">١</div>
+            <h3 data-localize="step1_title">اختر نوع العقد</h3>
+            <p data-localize="step1_desc">حدد الفئة المناسبة لعقدك (عمل، إيجار، خدمات اتصالات، اشتراكات، سيارة) لتهيئة بيئة الفحص القانوني.</p>
+          </div>
+          <div class="step-item">
+            <div class="step-num">٢</div>
+            <h3 data-localize="step2_title">ارفع المستند</h3>
+            <p data-localize="step2_desc">ارفع عقدك بصيغة PDF أو كصورة. سيقوم النظام ببدء التعرف الضوئي التلقائي لقراءة الكلمات بدقة.</p>
+          </div>
+          <div class="step-item">
+            <div class="step-num">٣</div>
+            <h3 data-localize="step3_title">اقرأ تقرير التحليل</h3>
+            <p data-localize="step3_desc">احصل فوراً على بطاقات البنود المفصلة، ومستوى المخاطر، والوصول المباشر للمرجع الحكومي الرسمي.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Supported Contract Types Preview -->
+      <div class="section-title">
+        <h2 data-localize="supported_title">أنواع العقود المدعومة حالياً</h2>
+        <p data-localize="supported_sub">هندسة مرنة مصممة للتوسع وإضافة المزيد من أنواع العقود والأنظمة لاحقاً</p>
+      </div>
+      <div class="contract-types-grid">
+        <div class="contract-type-card" data-type="rental">
+          <div class="corner-ribbon" data-localize="experimental_badge">تجريبي</div>
+          <span class="icon">🏠</span>
+          <h3 data-localize="type_rental">عقد إيجار سكني</h3>
+        </div>
+        <div class="contract-type-card" data-type="employment">
+          <span class="icon">💼</span>
+          <h3 data-localize="type_employment">عقد عمل</h3>
+        </div>
+        <div class="contract-type-card" data-type="mobile">
+          <div class="corner-ribbon" data-localize="experimental_badge">تجريبي</div>
+          <span class="icon">📱</span>
+          <h3 data-localize="type_mobile">عقد اتصالات وإنترنت</h3>
+        </div>
+        <div class="contract-type-card" data-type="subscription">
+          <div class="corner-ribbon" data-localize="experimental_badge">تجريبي</div>
+          <span class="icon">💳</span>
+          <h3 data-localize="type_sub">اتفاقية اشتراك خدمات</h3>
+        </div>
+        <div class="contract-type-card" data-type="car">
+          <div class="corner-ribbon" data-localize="experimental_badge">تجريبي</div>
+          <span class="icon">🚗</span>
+          <h3 data-localize="type_car">مبايعة سيارة مستعملة</h3>
+        </div>
+      </div>
+
+      <!-- Security & Privacy Section -->
+      <div class="security-section">
+        <div class="security-text">
+          <h2 data-localize="sec_title">الأمن والخصوصية</h2>
+          <p data-localize="sec_desc">نحرص على حماية بياناتك وخصوصية مستنداتك، مع تطبيق إجراءات تقنية وتنظيمية مناسبة لحماية البيانات أثناء استخدام المنصة.</p>
+        </div>
+        <div class="security-badge-grid">
+          <div class="security-badge">
+            <i class="fa-solid fa-lock"></i>
+            <div>
+              <h4 data-localize="sec_b1_title">معالجة آمنة ومشفرة</h4>
+              <p data-localize="sec_b1_desc">تتم معالجة نصوص مستنداتك وتشفيرها بالكامل ولا يتم تخزينها أو مشاركتها لأي أغراض تسويقية.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 2: DASHBOARD / WORKFLOW WIZARD -->
+    <section class="view-section" id="view-dashboard">
+      <div class="wizard-card">
+        
+        <!-- Wizard Header -->
+        <div class="wizard-header">
+          <h2 id="wizard-title" data-localize="wiz_t1">اختر نوع العقد المراد تحليله</h2>
+          <p id="wizard-subtitle" data-localize="wiz_s1">يساعد اختيار نوع العقد في مطابقة نصوص البنود بالجهات التنظيمية الصحيحة.</p>
+        </div>
+
+        <!-- Progress Indicator -->
+        <div class="wizard-steps-indicator">
+          <div class="indicator-step active" id="ind-step-1" title="نوع العقد / Contract Type">١</div>
+          <div class="indicator-step" id="ind-step-2" title="رفع الملف / Upload Contract">٢</div>
+          <div class="indicator-step" id="ind-step-3" title="التحليل / Analyzing">٣</div>
+        </div>
+
+        <!-- WIZARD STEP 1: SELECT CONTRACT TYPE -->
+        <div class="wizard-step-content active-step" id="step-content-1">
+          <div class="types-selection-grid">
+            <button class="select-type-btn" data-type="rental">
+              <div class="corner-ribbon" data-localize="experimental_badge">تجريبي</div>
+              <span class="icon">🏠</span>
+              <div>
+                <h4 data-localize="type_rental">عقد إيجار سكني</h4>
+                <p data-localize="type_rental_desc">مرجع: إيجار / وزارة الإسكان</p>
+              </div>
+            </button>
+            <button class="select-type-btn" data-type="employment">
+              <span class="icon">💼</span>
+              <div>
+                <h4 data-localize="type_employment">عقد عمل</h4>
+                <p data-localize="type_employment_desc">مرجع: وزارة الموارد البشرية / قوى</p>
+              </div>
+            </button>
+            <button class="select-type-btn" data-type="mobile">
+              <div class="corner-ribbon" data-localize="experimental_badge">تجريبي</div>
+              <span class="icon">📱</span>
+              <div>
+                <h4 data-localize="type_mobile">عقد اتصالات وإنترنت</h4>
+                <p data-localize="type_mobile_desc">مرجع: هيئة الاتصالات والفضاء والتقنية</p>
+              </div>
+            </button>
+            <button class="select-type-btn" data-type="subscription">
+              <div class="corner-ribbon" data-localize="experimental_badge">تجريبي</div>
+              <span class="icon">💳</span>
+              <div>
+                <h4 data-localize="type_sub">اتفاقية اشتراك خدمات</h4>
+                <p data-localize="type_sub_desc">مرجع: البنك المركزي (ساما) / التجارة</p>
+              </div>
+            </button>
+            <button class="select-type-btn" data-type="car">
+              <div class="corner-ribbon" data-localize="experimental_badge">تجريبي</div>
+              <span class="icon">🚗</span>
+              <div>
+                <h4 data-localize="type_car">مبايعة سيارة مستعملة</h4>
+                <p data-localize="type_car_desc">مرجع: وزارة التجارة / المعاملات المدنية</p>
+              </div>
+            </button>
+          </div>
+          <!-- Explanatory Notice Banner for Experimental Contract Types -->
+          <div class="experimental-notice-banner" style="background: rgba(245, 158, 11, 0.1); border: 1px dashed var(--attention); border-radius: 8px; padding: 10px 14px; margin-top: 16px; font-size: 0.82rem; color: var(--text-secondary); display: flex; align-items: center; gap: 8px;">
+            <i class="fa-solid fa-flask" style="color: var(--attention); font-size: 1rem; flex-shrink: 0;"></i>
+            <span data-localize="experimental_notice_text">هذا النوع في وضع تجريبي ولم يتم التحقق من قاعدة المعرفة والمصادر القانونية بالكامل بعد.</span>
+          </div>
+        </div>
+
+        <!-- WIZARD STEP 2: UPLOAD FILE -->
+        <div class="wizard-step-content" id="step-content-2" style="display: none;">
+          <div class="upload-zone" id="drop-zone">
+            <span class="upload-icon"><i class="fa-solid fa-cloud-arrow-up"></i></span>
+            <h3 data-localize="up_title">اسحب وأفلت ملف العقد هنا</h3>
+            <p data-localize="up_desc">ندعم ملفات PDF, DOCX والصور (PNG, JPG, HEIC)</p>
+            <button class="btn btn-secondary" data-localize="up_select">أو تصفح الملفات</button>
+            <input type="file" id="file-selector" class="file-input" accept=".pdf,.docx,.jpg,.jpeg,.png,.heic">
+          </div>
+
+          <!-- Selected File Preview Card -->
+          <div class="uploaded-file-card" id="file-card" style="display: none;">
+            <div class="file-info">
+              <span class="icon"><i class="fa-regular fa-file-pdf"></i></span>
+              <div>
+                <span class="name" id="file-name-display">contract.pdf</span>
+                <span class="size" id="file-size-display">1.2 MB</span>
+              </div>
+            </div>
+            <button class="remove-file-btn" id="file-remove-btn" title="حذف الملف / Remove File">
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- WIZARD STEP 3: ANALYZING SIMULATION -->
+        <div class="wizard-step-content" id="step-content-3" style="display: none;">
+          <div class="analysis-loading-wrapper">
+            <div class="loading-spinner-container">
+              <div class="loading-ring"></div>
+              <div class="loading-center"><i class="fa-solid fa-microchip-ai"></i></div>
+            </div>
+            
+            <h3 class="loading-status-text" id="status-main-text">جاري فحص وتفسير العقد...</h3>
+            <p class="loading-substatus-text" id="status-sub-text">يتعرف النظام على صياغة البنود ويستخرج الالتزامات...</p>
+            
+            <!-- Analysis Log Step List -->
+            <div class="analysis-steps-list" id="analysis-log-steps">
+              <!-- Dynamically populated via JS -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Wizard Navigation Footer -->
+        <div class="wizard-footer">
+          <button class="btn btn-secondary" id="wiz-prev-btn" style="visibility: hidden;">
+            <i class="fa-solid fa-chevron-right prev-arrow"></i>
+            <span data-localize="wiz_back">السابق</span>
+          </button>
+          
+          <button class="btn btn-primary" id="wiz-next-btn" disabled style="margin-inline-start: auto;">
+            <span data-localize="wiz_next">التالي</span>
+            <i class="fa-solid fa-chevron-left next-arrow"></i>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- VIEW 3: ANALYSIS RESULTS / DASHBOARD -->
+    <section class="view-section" id="view-results">
+      <div class="results-action-header" style="margin-bottom: 24px;">
+        <button class="btn btn-secondary" id="report-back-btn">
+          <i class="fa-solid fa-chevron-right prev-arrow"></i>
+          <span data-localize="wiz_back">السابق</span>
+        </button>
+      </div>
+      <div class="analysis-dashboard">
+        
+        <!-- Left Pane: Document Viewer -->
+        <div class="document-viewer-pane">
+          <div class="doc-viewer-header">
+            <h3><i class="fa-solid fa-file-invoice"></i> <span data-localize="doc_viewer_title">العقد المرفوع</span></h3>
+            <span class="risk-pill safe" id="doc-type-badge">عقد عمل</span>
+          </div>
+          
+          <!-- Document Metadata Validation Panel -->
+          <div class="doc-meta-validation" id="doc-meta-validation" style="margin-top: 12px; margin-bottom: 12px; padding: 12px; background-color: var(--background); border-radius: 8px; font-size: 0.85rem; border: 1px solid var(--border); display: flex; flex-wrap: wrap; gap: 16px;">
+            <div><strong>Language / اللغة:</strong> <span id="val-doc-lang">-</span></div>
+            <div><strong>Size / الطول:</strong> <span id="val-doc-length">-</span> chars</div>
+            <div><strong>Category / التصنيف:</strong> <span id="val-doc-type">-</span></div>
+          </div>
+          <!-- Document Content text -->
+          <div class="doc-viewer-content" id="doc-viewer-text">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+
+        <!-- Right Pane: Analysis Report Details -->
+        <div class="analysis-results-pane">
+          
+          <!-- Overall Status Summary Card -->
+          <div class="overall-status-card">
+            <div class="status-grid">
+              
+              <!-- Circular Score Gauge -->
+              <div class="score-gauge-container">
+                <svg class="score-svg" viewBox="0 0 120 120">
+                  <circle class="score-circle-bg" cx="60" cy="60" r="54"></circle>
+                  <circle class="score-circle-fill" id="score-gauge" cx="60" cy="60" r="54"></circle>
+                </svg>
+                <div class="score-text">
+                  <span class="score-val" id="score-text-val">0</span>
+                  <span class="score-lbl" data-localize="score_label">درجة الأمان</span>
+                </div>
+              </div>
+              
+              <!-- Status Title / Badges -->
+              <div class="status-details">
+                <div class="status-badge risk" id="report-status-badge">
+                  <i class="fa-solid fa-triangle-exclamation"></i>
+                  <span id="report-status-text">يحتاج لمراجعة هامة</span>
+                </div>
+                <h3 class="status-title" id="report-status-desc">يحتوي هذا العقد على بنود عمالية تخالف اللوائح الصارمة لوزارة العمل.</h3>
+                <p data-localize="status_warning_tip">ننصح بمراجعة البنود عالية الخطورة والتفاوض مع الطرف الآخر قبل توقيع العقد.</p>
+              </div>
+
+            </div>
+
+            <!-- Statistics Grid -->
+            <div class="stats-grid">
+              <div class="stat-item">
+                <span class="stat-val" id="stat-total">0</span>
+                <span class="stat-lbl" data-localize="stat_total">إجمالي البنود</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-val" id="stat-safe" style="color: var(--safe);">0</span>
+                <span class="stat-lbl" data-localize="stat_safe">بنود آمنة</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-val" id="stat-attention" style="color: var(--attention);">0</span>
+                <span class="stat-lbl" data-localize="stat_attention">تحتاج انتباه</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-val" id="stat-risk" style="color: var(--risk);">0</span>
+                <span class="stat-lbl" data-localize="stat_risk">مخاطر عالية</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-val" id="stat-undocumented" style="color: var(--text-secondary);">0</span>
+                <span class="stat-lbl" data-localize="stat_undoc">بدون مراجع</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Highlight Cards: Top 3 Critical Warnings -->
+          <div class="top-warnings-container" id="top-warnings-box">
+            <div class="top-warnings-header">
+              <i class="fa-solid fa-circle-exclamation"></i>
+              <h4 data-localize="top_warnings_title">أهم ٣ بنود ذات تأثير مباشر عليك:</h4>
+            </div>
+            <ul class="top-warnings-list" id="top-warnings-list-el">
+              <!-- Dynamically populated via JS -->
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- MAIN DETAILED CLAUSE ANALYSIS SECTION (CENTERED & WIDE) -->
+      <div class="detailed-clause-section">
+        <!-- Clause Cards Header -->
+        <h3 class="clause-section-header" data-localize="clause_breakdown">التفكيك التفصيلي لبنود العقد</h3>
+
+        <!-- Expandable Clause Cards list -->
+        <div class="clause-cards-list" id="clause-cards-container">
+          <!-- Dynamically populated via JS -->
+        </div>
+
+        <!-- Checklist Card -->
+        <div class="checklist-card">
+          <h3><i class="fa-solid fa-list-check" style="color: var(--primary); margin-inline-end: 8px;"></i> <span data-localize="checklist_title">قائمة التدقيق قبل التوقيع</span></h3>
+          <p data-localize="checklist_desc">قائمة مخصصة تم توليدها وتحديثها تلقائياً لمساعدتك أثناء التفاوض:</p>
+          <ul class="checklist-list" id="report-checklist-container">
+            <!-- Dynamically populated via JS -->
+          </ul>
+        </div>
+
+        <!-- Save Analysis Wrapper & Privacy Notice Banner -->
+        <div class="save-analysis-wrapper" style="margin-top: 24px; margin-bottom: 16px;">
+          <div class="privacy-notice-banner" style="background-color: var(--background); border: 1px dashed var(--primary); border-radius: 8px; padding: 12px 16px; margin-bottom: 12px; font-size: 0.85rem; color: var(--text-secondary); display: flex; align-items: center; gap: 10px;">
+            <i class="fa-solid fa-shield-halved" style="color: var(--primary); font-size: 1.1rem; flex-shrink: 0;"></i>
+            <span id="privacy-notice-text" data-localize="privacy_notice">
+              لن يتم حفظ ملف العقد الأصلي. يتم حفظ نتيجة التحليل فقط، ويمكنك حذفها من حسابك في أي وقت.
+            </span>
+          </div>
+          <button class="btn btn-primary btn-large" id="report-save-btn" style="width: 100%;">
+            <i class="fa-solid fa-bookmark"></i>
+            <span id="report-save-btn-text" data-localize="btn_save_analysis">حفظ التحليل</span>
+          </button>
+        </div>
+
+        <!-- Report Dashboard Action Footer -->
+        <div class="wizard-footer">
+          <button class="btn btn-secondary" id="report-print-btn">
+            <i class="fa-solid fa-print"></i>
+            <span data-localize="report_print">طباعة التقرير / تصدير PDF</span>
+          </button>
+          <button class="btn btn-secondary" id="report-restart-btn">
+            <i class="fa-solid fa-rotate"></i>
+            <span data-localize="report_new">تحليل عقد جديد</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- TEMPORARY DEVELOPER DEBUG PANEL -->
+      <div class="developer-debug-panel" id="dev-debug-panel" style="margin-top: 40px; padding: 20px; background-color: #1c2a2a; color: #a4b5b5; border-radius: 12px; font-family: monospace; border: 1px solid var(--border);">
+        <h4 style="margin-top: 0; color: #0d8f6f; display: flex; align-items: center; gap: 8px;">
+          <i class="fa-solid fa-bug"></i> DEV DEBUG MODE PANEL
+        </h4>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; font-size: 0.85rem; margin-top: 12px;">
+          <div><strong>File Name:</strong> <span id="dbg-file-name">-</span></div>
+          <div><strong>Extraction Method:</strong> <span id="dbg-method">-</span></div>
+          <div><strong>OCR Confidence:</strong> <span id="dbg-confidence">-</span></div>
+          <div><strong>Characters Extracted:</strong> <span id="dbg-char-count">-</span></div>
+          <div><strong>Pages Processed:</strong> <span id="dbg-pages">-</span></div>
+          <div><strong>Language:</strong> <span id="dbg-lang">-</span></div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- VIEW 4: MY ACCOUNT PAGE -->
+    <section class="view-section" id="view-account">
+      <div class="account-container" style="max-width: 900px; margin: 0 auto; padding: 24px 16px;">
+        
+        <!-- Account Header -->
+        <div class="account-header" style="margin-bottom: 24px;">
+          <h2 style="display: flex; align-items: center; gap: 10px; color: var(--primary); margin: 0 0 6px 0;">
+            <i class="fa-solid fa-user-gear"></i>
+            <span data-localize="account_title">حسابي</span>
+          </h2>
+          <p style="color: var(--text-secondary); margin: 0;" data-localize="account_subtitle">
+            إدارة تحليلاتك المحفوظة وقائمة التدقيق المعتمدة
+          </p>
+        </div>
+
+        <!-- Account Tabs -->
+        <div class="account-tabs" style="display: flex; gap: 12px; border-bottom: 2px solid var(--border); margin-bottom: 24px; flex-wrap: wrap;">
+          <button class="account-tab-btn active" id="account-tab-analyses" style="padding: 12px 20px; font-weight: 600; border: none; background: none; border-bottom: 3px solid var(--primary); color: var(--primary); cursor: pointer; display: flex; align-items: center; gap: 8px; font-size: 1rem;">
+            <i class="fa-solid fa-folder-bookmark"></i>
+            <span data-localize="tab_my_analyses">تحليلاتي</span>
+          </button>
+          <button class="account-tab-btn" id="account-tab-checklist" style="padding: 12px 20px; font-weight: 500; border: none; background: none; border-bottom: 3px solid transparent; color: var(--text-secondary); cursor: pointer; display: flex; align-items: center; gap: 8px; font-size: 1rem;">
+            <i class="fa-solid fa-list-check"></i>
+            <span data-localize="tab_checklist">قائمة التدقيق</span>
+          </button>
+          <button class="account-tab-btn" id="account-tab-settings" style="padding: 12px 20px; font-weight: 500; border: none; background: none; border-bottom: 3px solid transparent; color: var(--text-secondary); cursor: pointer; display: flex; align-items: center; gap: 8px; font-size: 1rem;">
+            <i class="fa-solid fa-gear"></i>
+            <span data-localize="tab_settings">إعدادات الحساب</span>
+          </button>
+        </div>
+
+        <!-- Tab 1 Content: My Analyses -->
+        <div class="account-tab-content" id="account-content-analyses">
+          <div id="saved-analyses-list" style="display: flex; flex-direction: column; gap: 16px;">
+            <!-- Dynamically populated via JS -->
+          </div>
+        </div>
+
+        <!-- Tab 2 Content: Checklist -->
+        <div class="account-tab-content" id="account-content-checklist" style="display: none;">
+          <div class="checklist-container" id="account-checklist-box" style="background: var(--background); border: 1px solid var(--border); border-radius: 12px; padding: 24px;">
+            <!-- Dynamically populated via JS -->
+          </div>
+        </div>
+
+        <!-- Tab 3 Content: Account Settings -->
+        <div class="account-tab-content" id="account-content-settings" style="display: none;">
+          <div class="settings-card" style="background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 28px; max-width: 650px;">
+            
+            <div id="settings-feedback-msg" style="display: none; padding: 12px 16px; border-radius: 8px; margin-bottom: 20px; font-size: 0.9rem; font-weight: 500;"></div>
+
+            <!-- Row 1: Name -->
+            <div class="settings-row" style="padding-bottom: 18px; border-bottom: 1px solid var(--border);">
+              <div style="display: flex; align-items: center; justify-content: space-between; gap: 16px;">
+                <div>
+                  <strong style="display: block; font-size: 0.95rem; color: var(--text);" data-localize="lbl_full_name">الاسم الكامل</strong>
+                  <span id="settings-current-name" style="font-size: 0.88rem; color: var(--text-secondary);">-</span>
+                </div>
+                <button class="btn btn-secondary btn-small toggle-edit-btn" data-target="settings-profile-form">
+                  <i class="fa-solid fa-pen"></i> <span data-localize="btn_change">تغيير</span>
+                </button>
+              </div>
+
+              <!-- Inline Form (Name) -->
+              <form id="settings-profile-form" onsubmit="return false;" style="display: none; margin-top: 14px; padding: 16px; background: var(--background); border-radius: 8px; border: 1px solid var(--border);">
+                <div class="form-group" style="margin-bottom: 12px;">
+                  <label style="display: block; margin-bottom: 6px; font-weight: 500; font-size: 0.85rem;" data-localize="lbl_full_name">الاسم الكامل الجديد</label>
+                  <input type="text" id="settings-name-input" class="form-input" style="width: 100%; padding: 10px 14px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text);" placeholder="أدخل اسمك الكامل">
+                </div>
+                <button type="submit" class="btn btn-primary btn-small" id="settings-save-name-btn">
+                  <i class="fa-solid fa-floppy-disk"></i> <span data-localize="btn_save_name">حفظ الاسم</span>
+                </button>
+              </form>
+            </div>
+
+            <!-- Row 2: Email -->
+            <div class="settings-row" style="padding: 18px 0; border-bottom: 1px solid var(--border);">
+              <div style="display: flex; align-items: center; justify-content: space-between; gap: 16px;">
+                <div>
+                  <strong style="display: block; font-size: 0.95rem; color: var(--text);" data-localize="lbl_email">البريد الإلكتروني</strong>
+                  <span id="settings-current-email" style="font-size: 0.88rem; color: var(--text-secondary);">-</span>
+                </div>
+                <button class="btn btn-secondary btn-small toggle-edit-btn" data-target="settings-email-form">
+                  <i class="fa-solid fa-pen"></i> <span data-localize="btn_change">تغيير</span>
+                </button>
+              </div>
+
+              <!-- Inline Form (Email) -->
+              <form id="settings-email-form" onsubmit="return false;" style="display: none; margin-top: 14px; padding: 16px; background: var(--background); border-radius: 8px; border: 1px solid var(--border);">
+                <div class="form-group" style="margin-bottom: 12px;">
+                  <label style="display: block; margin-bottom: 6px; font-weight: 500; font-size: 0.85rem;" data-localize="lbl_email">البريد الإلكتروني الجديد</label>
+                  <input type="email" id="settings-email-input" class="form-input" required style="width: 100%; padding: 10px 14px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text);" placeholder="example@domain.com">
+                </div>
+                <button type="submit" class="btn btn-primary btn-small" id="settings-save-email-btn">
+                  <i class="fa-solid fa-paper-plane"></i> <span data-localize="btn_save_email">تحديث البريد الإلكتروني</span>
+                </button>
+              </form>
+            </div>
+
+            <!-- Row 3: Password -->
+            <div class="settings-row" style="padding-top: 18px;">
+              <div style="display: flex; align-items: center; justify-content: space-between; gap: 16px;">
+                <div>
+                  <strong style="display: block; font-size: 0.95rem; color: var(--text);" data-localize="settings_password_title">كلمة المرور</strong>
+                  <span style="font-size: 0.88rem; color: var(--text-secondary);">••••••••</span>
+                </div>
+                <button class="btn btn-secondary btn-small toggle-edit-btn" data-target="settings-password-form">
+                  <i class="fa-solid fa-pen"></i> <span data-localize="btn_change">تغيير</span>
+                </button>
+              </div>
+
+              <!-- Inline Form (Password) -->
+              <form id="settings-password-form" onsubmit="return false;" style="display: none; margin-top: 14px; padding: 16px; background: var(--background); border-radius: 8px; border: 1px solid var(--border);">
+                <div class="form-group" style="margin-bottom: 12px;">
+                  <label style="display: block; margin-bottom: 6px; font-weight: 500; font-size: 0.85rem;" data-localize="lbl_new_password">كلمة المرور الجديدة</label>
+                  <input type="password" id="settings-password-input" class="form-input" required style="width: 100%; padding: 10px 14px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text);" placeholder="••••••••">
+                </div>
+                <div class="form-group" style="margin-bottom: 12px;">
+                  <label style="display: block; margin-bottom: 6px; font-weight: 500; font-size: 0.85rem;" data-localize="lbl_confirm_password">تأكيد كلمة المرور الجديدة</label>
+                  <input type="password" id="settings-password-confirm-input" class="form-input" required style="width: 100%; padding: 10px 14px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text);" placeholder="••••••••">
+                </div>
+                <button type="submit" class="btn btn-primary btn-small" id="settings-save-password-btn">
+                  <i class="fa-solid fa-key"></i> <span data-localize="btn_save_password">تغيير كلمة المرور</span>
+                </button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- OFFICIAL SOURCE DETAILS MODAL -->
+  <div class="modal-overlay" id="source-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="modal-law-title">نظام العمل السعودي - المادة ٥٣</h4>
+        <button class="close-modal-btn" id="modal-close-btn" aria-label="إغلاق / Close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <span class="modal-official-badge">
+          <i class="fa-solid fa-circle-check"></i>
+          <span data-localize="modal_official">نص تشريعي رسمي معتمد</span>
+        </span>
+        <p class="modal-text-content" id="modal-source-text">
+          محتوى المادة...
+        </p>
+        
+        <!-- Metadata Info -->
+        <div class="modal-meta-grid">
+          <div class="modal-meta-item">
+            <strong data-localize="modal_auth">الجهة التنظيمية</strong>
+            <span id="modal-meta-authority">وزارة الموارد البشرية والتنمية الاجتماعية</span>
+          </div>
+          <div class="modal-meta-item">
+            <strong data-localize="modal_section">الباب / الفصل</strong>
+            <span id="modal-meta-section">الفصل الثاني: فترة التجربة</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#" target="_blank" class="btn btn-primary" id="modal-link-btn">
+          <span data-localize="modal_view_gov">عرض المرجع الرسمي في منصة الجهة</span>
+          <i class="fa-solid fa-up-right-from-square" style="font-size: 0.8rem;"></i>
+        </a>
+        <button class="btn btn-secondary" id="modal-close-action-btn" data-localize="modal_close">إغلاق</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- AUTHENTICATION MODAL -->
+  <div class="modal-overlay" id="auth-modal" style="display: none;">
+    <div class="modal-content" style="max-width: 440px;">
+      <div class="modal-header">
+        <h4 class="modal-title" id="auth-modal-title" data-localize="auth_modal_title_login">تسجيل الدخول إلى حسابك</h4>
+        <button class="close-modal-btn" id="auth-modal-close-btn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <!-- Auth Tabs Toggle -->
+        <div class="auth-tabs" style="display: flex; gap: 8px; margin-bottom: 20px; border-bottom: 1px solid var(--border); padding-bottom: 10px;">
+          <button class="btn btn-secondary active" id="auth-tab-login" style="flex: 1;" data-localize="btn_sign_in">تسجيل الدخول</button>
+          <button class="btn btn-secondary" id="auth-tab-register" style="flex: 1;" data-localize="btn_register">إنشاء حساب جديد</button>
+        </div>
+
+        <!-- Auth Form -->
+        <form id="auth-form" onsubmit="return false;">
+          <div id="auth-name-group" class="form-group" style="display: none; margin-bottom: 14px;">
+            <label style="display: block; margin-bottom: 6px; font-weight: 500; font-size: 0.9rem;" data-localize="lbl_full_name">الاسم (اختياري)</label>
+            <input type="text" id="auth-name-input" class="form-input" style="width: 100%; padding: 10px; border: 1px solid var(--border); border-radius: 6px;" placeholder="أدخل اسمك الكامل">
+          </div>
+
+          <div class="form-group" style="margin-bottom: 14px;">
+            <label style="display: block; margin-bottom: 6px; font-weight: 500; font-size: 0.9rem;" data-localize="lbl_email">البريد الإلكتروني *</label>
+            <input type="email" id="auth-email-input" class="form-input" required style="width: 100%; padding: 10px; border: 1px solid var(--border); border-radius: 6px;" placeholder="example@domain.com">
+          </div>
+
+          <div class="form-group" style="margin-bottom: 14px;">
+            <label style="display: block; margin-bottom: 6px; font-weight: 500; font-size: 0.9rem;" data-localize="lbl_password">كلمة المرور *</label>
+            <input type="password" id="auth-password-input" class="form-input" required style="width: 100%; padding: 10px; border: 1px solid var(--border); border-radius: 6px;" placeholder="••••••••">
+          </div>
+
+          <div id="auth-error-msg" style="display: none; color: var(--risk); font-size: 0.85rem; margin-bottom: 14px; padding: 8px; background: rgba(220, 38, 38, 0.1); border-radius: 6px;"></div>
+
+          <button type="submit" class="btn btn-primary" id="auth-submit-btn" style="width: 100%; padding: 12px;">
+            <span id="auth-submit-text" data-localize="btn_sign_in">تسجيل الدخول</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- MY SAVED ANALYSES MODAL / DRAWER -->
+  <div class="modal-overlay" id="my-analyses-modal" style="display: none;">
+    <div class="modal-content" style="max-width: 650px;">
+      <div class="modal-header">
+        <h4 class="modal-title"><i class="fa-solid fa-folder-bookmark"></i> <span data-localize="btn_my_analyses">تحليلاتي المحفوظة</span></h4>
+        <button class="close-modal-btn" id="my-analyses-close-btn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="saved-analyses-list" style="display: flex; flex-direction: column; gap: 12px; max-height: 400px; overflow-y: auto;">
+          <!-- Dynamically populated via JS -->
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="my-analyses-close-action-btn" data-localize="modal_close">إغلاق</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">
+      <span class="logo-primary"><i class="fa-solid fa-scale-balanced"></i> Bayyin</span> | بيّن
+    </div>
+    <div class="footer-links">
+      <a href="#" class="footer-logo-link" id="footer-logo-link">منصة بيّن الرقمية</a>
+      <a href="#" id="footer-analyze-link" data-localize="foot_analyze">تحليل العقود</a>
+    </div>
+    <p class="footer-disclaimer" data-localize="disclaimer">
+      إخلاء مسؤولية قانونية: منصة بيّن (Bayyin) هي منصة إرشادية وتفسيرية تهدف لمساعدة المستخدمين على فهم صياغة العقود وتوضيح مواءمتها للأنظمة واللوائح الرسمية السعودية الموثقة. لا تقدم المنصة استشارات قانونية ملزمة ولا تغني عن استشارة محامٍ مرخص.
+    </p>
+  </footer>
+
+  <!-- App Main Code Script -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

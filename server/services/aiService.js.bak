@@ -1,0 +1,335 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { GoogleGenerativeAI } from '@google/generative-ai';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+/**
+ * Structured auditing log writer
+ */
+export const logAudit = (message) => {
+  const logDir = path.join(__dirname, '../logs');
+  if (!fs.existsSync(logDir)) {
+    fs.mkdirSync(logDir, { recursive: true });
+  }
+  const logPath = path.join(logDir, 'audit.log');
+  const timestamp = new Date().toISOString();
+  fs.appendFileSync(logPath, `[${timestamp}] ${message}\n`, 'utf-8');
+};
+
+/**
+ * Abstract AI Provider Interface
+ */
+export class AIProvider {
+  /**
+   * Analyzes a clause based ONLY on matched legal reference context.
+   * MUST NOT search the web or rely on internal trained knowledge.
+   * @param {string} clauseText - Original contract clause text
+   * @param {Object} legalReference - Retrieved knowledge base record
+   * @param {string} contractType - Selected category type
+   * @returns {Promise<Object>} - Clause audit report segment
+   */
+  async analyzeClause(clauseText, legalReference, contractType) {
+    throw new Error("Method 'analyzeClause' must be implemented.");
+  }
+}
+
+/**
+ * Gemini AI compliance auditor implementation
+ */
+export class GeminiAIProvider extends AIProvider {
+  constructor() {
+    super();
+    this.apiKey = process.env.GEMINI_API_KEY;
+    if (this.apiKey) {
+      this.genAI = new GoogleGenerativeAI(this.apiKey);
+    }
+  }
+
+  async analyzeClause(clauseText, legalReference, contractType) {
+    if (!this.genAI) {
+      throw new Error("Gemini API key is not configured in process.env.GEMINI_API_KEY");
+    }
+
+    logAudit(`AI Request (Gemini) - Type: ${contractType}`);
+    logAudit(`AI Request - Clause: "${clauseText.substring(0, 100).replace(/\n/g, ' ')}..."`);
+    logAudit(`AI Request - Matched Reference: ${legalReference.referenceId}`);
+
+    const startTime = Date.now();
+
+    const systemPrompt = `
+You are an expert Saudi Legal Compliance Auditor. Your task is to analyze a single contract clause against a retrieved official Saudi legal reference.
+
+CRITICAL RULES:
+1. Use ONLY the provided legal reference as the source of legal truth.
+2. NEVER search the internet.
+3. NEVER invent any laws or cite regulations that are not provided.
+4. NEVER modify or guess legal references or URLs.
+5. Provide all outputs in both English and Arabic.
+6. The riskLevel must be one of: "safe" (fully compliant), "attention" (requires review or minor tweak), or "risk" (directly violates regulations or introduces severe liability).
+7. Return a confidence score between 0 and 100 representing the certainty of the match.
+
+Input:
+- Contract Type: ${contractType}
+- Contract Clause: "${clauseText}"
+- Retrieved Legal Reference:
+  - Authority: ${JSON.stringify(legalReference.authority)}
+  - Law Name: ${JSON.stringify(legalReference.lawName)}
+  - Article Number: ${legalReference.articleNumber}
+  - Article Title: ${JSON.stringify(legalReference.articleTitle)}
+  - Article Text: ${JSON.stringify(legalReference.articleText)}
+
+Output JSON Schema (MUST match exactly, return ONLY JSON):
+{
+  "riskLevel": "safe" | "attention" | "risk",
+  "explanation": {
+    "en": "Plain language explanation of what this clause means for the user",
+    "ar": "تبسيط وشرح لمعنى هذا البند باللغة العربية"
+  },
+  "why": {
+    "en": "Why the retrieved article applies to this clause specifically",
+    "ar": "شرح سبب انطباق المادة المسترجعة على هذا البند بالتفصيل"
+  },
+  "recommendation": {
+    "en": "Practical action recommendation for the user based on the risk level",
+    "ar": "توصية عملية وإجراء مقترح للمستخدم باللغة العربية"
+  },
+  "confidenceScore": number (0-100)
+}
+`;
+
+    try {
+      const model = this.genAI.getGenerativeModel({
+        model: "gemini-2.5-flash",
+        generationConfig: {
+          responseMimeType: "application/json"
+        }
+      });
+
+      const result = await model.generateContent(systemPrompt);
+      const rawText = result.response.text();
+      const aiResult = JSON.parse(rawText);
+
+      const duration = Date.now() - startTime;
+      const tokens = result.response.usageMetadata ? {
+        prompt: result.response.usageMetadata.promptTokenCount,
+        completion: result.response.usageMetadata.candidatesTokenCount,
+        total: result.response.usageMetadata.totalTokenCount
+      } : { prompt: 0, completion: 0, total: 0 };
+
+      // Log processing details as required
+      logAudit(`Gemini Audit Time: ${duration}ms`);
+      logAudit(`Gemini Tokens: ${JSON.stringify(tokens)}`);
+      logAudit(`Gemini Raw Response: ${rawText}`);
+
+      const riskLevel = aiResult.riskLevel || "safe";
+
+      // Map back to the required frontend response schema
+      const response = {
+        id: legalReference.referenceId || "",
+        title: legalReference.articleTitle || { en: "", ar: "" },
+        originalText: { en: clauseText || "", ar: clauseText || "" },
+        reasoning: aiResult.why || { en: "", ar: "" },
+        why: aiResult.why || { en: "", ar: "" },
+        explanation: aiResult.explanation || { en: "", ar: "" },
+        riskLevel: riskLevel,
+        reasoningPath: {
+          en: [
+            { step: "Original Clause", desc: "Paragraph extracted from contract upload." },
+            { step: "RAG Retrieval", desc: `Retrieved ${legalReference.lawName.en} ${legalReference.articleNumber} from knowledge base.` },
+            { step: "Explainable Legal Analysis", desc: aiResult.why.en || "" },
+            { step: "Risk Level Decision", desc: `Assessed as ${riskLevel.toUpperCase()}` }
+          ],
+          ar: [
+            { step: "البند الأصلي", desc: "الفقرة المستخرجة من المستند المرفوع." },
+            { step: "استدعاء المرجع (RAG)", desc: `استرجاع ${legalReference.lawName.ar} - ${legalReference.articleNumber} من قاعدة المعرفة.` },
+            { step: "التحليل القانوني المفسّر", desc: aiResult.why.ar || "" },
+            { step: "تحديد المخاطر", desc: `تقييم البند كـ ${riskLevel === 'safe' ? 'آمن' : riskLevel === 'attention' ? 'انتباه' : 'خطير'}` }
+          ]
+        },
+        reference: {
+          authority: legalReference.authority || { en: "", ar: "" },
+          lawName: legalReference.lawName || { en: "", ar: "" },
+          articleNumber: legalReference.articleNumber || "",
+          articleText: legalReference.articleText || { en: "", ar: "" },
+          article: {
+            en: legalReference.articleNumber || "",
+            ar: legalReference.articleNumber || ""
+          },
+          section: {
+            en: legalReference.articleTitle.en || "",
+            ar: legalReference.articleTitle.ar || ""
+          },
+          officialSourceText: legalReference.articleText || { en: "", ar: "" },
+          url: legalReference.officialUrl || ""
+        },
+        recommendation: aiResult.recommendation || { en: "", ar: "" },
+        confidence: {
+          level: aiResult.confidenceScore > 80 ? "high" : aiResult.confidenceScore > 50 ? "medium" : "low",
+          reason: {
+            en: `Assessed by Gemini with ${aiResult.confidenceScore}% confidence.`,
+            ar: `تم التقييم بواسطة جميناي بنسبة يقين ${aiResult.confidenceScore}٪.`
+          }
+        }
+      };
+
+      return response;
+
+    } catch (err) {
+      logAudit(`Gemini Audit Error: ${err.message}\n${err.stack}`);
+      throw err;
+    }
+  }
+}
+
+/**
+ * Rule-based statutory compliance AI implementation (Fallback Provider)
+ */
+export class RuleBasedAIProvider extends AIProvider {
+  async analyzeClause(clauseText, legalReference, contractType) {
+    // Auditing telemetry log
+    logAudit(`AI Request (RuleBased) - Type: ${contractType}`);
+    logAudit(`AI Request - Extracted Clause: "${clauseText.substring(0, 100).replace(/\n/g, ' ')}..."`);
+    logAudit(`AI Request - Matched Reference ID: ${legalReference.referenceId}`);
+
+    let riskLevel = "safe";
+
+    if (legalReference.referenceId === "emp_ref2") { // Probation Period
+      const matches = clauseText.match(/\b(180|120)\b/);
+      if (matches || /180|١٨٠/i.test(clauseText)) {
+        riskLevel = "risk"; // Violates 90 days limit in the initial contract
+      }
+    } else if (legalReference.referenceId === "emp_ref3") { // Wage Deductions
+      if (/unlimited|any amount|دون حد|دون تحقيق|أي مبالغ/i.test(clauseText)) {
+        riskLevel = "risk"; // Violates the 5-day wage cap
+      }
+    } else if (legalReference.referenceId === "emp_ref4") { // Non-Compete Clauses
+      if (/5 years|Middle East|سنوات|الشرق الأوسط/i.test(clauseText)) {
+        riskLevel = "attention"; // Exceeds the 2-year limit
+      }
+    } else if (legalReference.referenceId === "emp_ref5") { // Arbitrary Termination
+      if (/without cause|without any specific reason|دون إبداء أي سبب/i.test(clauseText)) {
+        riskLevel = "risk"; // Violates notice and fair dismissal rules
+      }
+    } else if (legalReference.referenceId === "rental_ref2") { // Structural Maintenance
+      if (/bear all maintenance|structural repairs|جميع تكاليف صيانة/i.test(clauseText)) {
+        riskLevel = "attention"; // Shifts structural maintenance to tenant
+      }
+    } else if (legalReference.referenceId === "rental_ref3") { // Privacy & Landlord Entry
+      if (/at any time without prior notice|في أي وقت ودون إشعار/i.test(clauseText)) {
+        riskLevel = "risk"; // Violates peaceful enjoyment and tenant privacy
+      }
+    } else if (legalReference.referenceId === "rental_ref4") { // Arbitrary Eviction
+      if (/automatically evicted|3 days|إخلاء المستأجر تلقائياً/i.test(clauseText)) {
+        riskLevel = "risk"; // Violates execution court enforcement timelines
+      }
+    } else if (legalReference.referenceId === "tel_ref1") { // CST Price Increase
+      if (/without prior notification|دون سابق إنذار/i.test(clauseText)) {
+        riskLevel = "risk"; // Violates CST 30-day notice rule
+      }
+    } else if (legalReference.referenceId === "tel_ref2") { // CST Outages
+      if (/not be entitled to any refund|لا يحق للعميل المطالبة/i.test(clauseText)) {
+        riskLevel = "attention"; // Violates downtime billing adjustments
+      }
+    } else if (legalReference.referenceId === "tel_ref3") { // Telecom Early Exit
+      if (/total monthly subscription|مجموع الاشتراكات الشهرية/i.test(clauseText)) {
+        riskLevel = "risk"; // Violates subsidized device proration caps
+      }
+    } else if (legalReference.referenceId === "bank_ref1") { // SAMA Auto Renewal
+      if (/automatically renew|تلقائياً/i.test(clauseText)) {
+        riskLevel = "attention"; // Requires opt-out/disclosure mechanisms
+      }
+    } else if (legalReference.referenceId === "sub_ref1") { // Biometrics & Privacy
+      if (/biometric|advertisers|معلنين|الحيوية/i.test(clauseText)) {
+        riskLevel = "risk"; // Violates PDPL Articles 5 & 15
+      }
+    } else if (legalReference.referenceId === "car_ref1") { // Used Cars Loss Risk
+      if (/immediately upon signing|فور توقيع/i.test(clauseText)) {
+        riskLevel = "attention"; // Shifts risk of loss to buyer early
+      }
+    } else if (legalReference.referenceId === "car_ref2") { // Deposits (Arboon)
+      if (/non-refundable|غير قابل للاسترداد/i.test(clauseText)) {
+        riskLevel = "risk"; // Violates Arboon default double-refund rules
+      }
+    } else if (legalReference.referenceId === "car_ref3") { // Hidden Defects Warranty
+      if (/as-is|hidden mechanical|بحالتها الراهنة|الخفية/i.test(clauseText)) {
+        riskLevel = "risk"; // Violates hidden defect guarantees in bad faith sales
+      }
+    }
+
+    const response = {
+      id: legalReference.referenceId || "",
+      title: legalReference.articleTitle || { en: "", ar: "" },
+      originalText: { en: clauseText || "", ar: clauseText || "" },
+      reasoning: {
+        en: `This clause has been audited against ${legalReference.lawName.en} (${legalReference.articleNumber}) governing ${legalReference.articleTitle.en}.`,
+        ar: `تم مراجعة هذا البند ومطابقته مع ${legalReference.lawName.ar} (${legalReference.articleNumber}) المتعلق بـ ${legalReference.articleTitle.ar}.`
+      },
+      why: {
+        en: `This clause has been audited against ${legalReference.lawName.en} (${legalReference.articleNumber}) governing ${legalReference.articleTitle.en}.`,
+        ar: `تم مراجعة هذا البند ومطابقته مع ${legalReference.lawName.ar} (${legalReference.articleNumber}) المتعلق بـ ${legalReference.articleTitle.ar}.`
+      },
+      explanation: legalReference.plainLanguageExplanation || { en: "", ar: "" },
+      riskLevel: riskLevel || "safe",
+      reasoningPath: {
+        en: [
+          { step: "Original Clause", desc: "Paragraph extracted from contract upload." },
+          { step: "RAG Retrieval", desc: `Retrieved ${legalReference.lawName.en} ${legalReference.articleNumber} from knowledge base.` },
+          { step: "Explainable Legal Analysis", desc: `Checked compliance with statutory standards set by ${legalReference.governmentAuthority.en}.` },
+          { step: "Risk Level Decision", desc: `Assessed as ${riskLevel.toUpperCase()}` }
+        ],
+        ar: [
+          { step: "البند الأصلي", desc: "الفقرة المستخرجة من المستند المرفوع." },
+          { step: "استدعاء المرجع (RAG)", desc: `استرجاع ${legalReference.lawName.ar} - ${legalReference.articleNumber} من قاعدة المعرفة.` },
+          { step: "التحليل القانوني المفسّر", desc: `مقارنة البند بالشروط الصادرة عن ${legalReference.governmentAuthority.ar}.` },
+          { step: "تحديد المخاطر", desc: `تقييم البند كـ ${riskLevel === 'safe' ? 'آمن' : riskLevel === 'attention' ? 'انتباه' : 'خطير'}` }
+        ]
+      },
+      reference: {
+        authority: legalReference.governmentAuthority || { en: "", ar: "" },
+        lawName: legalReference.lawName || { en: "", ar: "" },
+        articleNumber: legalReference.articleNumber || "",
+        articleText: legalReference.originalArticleText || { en: "", ar: "" },
+        article: {
+          en: legalReference.articleNumber || "",
+          ar: legalReference.articleNumber || ""
+        },
+        section: {
+          en: legalReference.articleTitle.en || "",
+          ar: legalReference.articleTitle.ar || ""
+        },
+        officialSourceText: legalReference.originalArticleText || { en: "", ar: "" },
+        url: legalReference.officialSourceUrl || ""
+      },
+      recommendation: {
+        en: riskLevel === 'safe' 
+          ? "No adjustments required. The terms comply with regulations." 
+          : `Review and adjust terms to ensure full alignment with ${legalReference.lawName.en} ${legalReference.articleNumber}.`,
+        ar: riskLevel === 'safe'
+          ? "لا يتطلب أي إجراء. البند متوافق مع القواعد المعتمدة."
+          : `راجع البند واطلب تعديله ليتماشى مع ${legalReference.lawName.ar} - ${legalReference.articleNumber}.`
+      },
+      confidence: {
+        level: "high",
+        reason: {
+          en: "Verified with official database match.",
+          ar: "تم التحقق منه وتوثيقه بمطابقة قاعدة البيانات الرسمية."
+        }
+      }
+    };
+
+    logAudit(`AI Response (RuleBased) - Risk: ${riskLevel.toUpperCase()}`);
+    return response;
+  }
+}
+
+// Swappable AI configuration setup (hot-swappable if process.env.GEMINI_API_KEY is configured)
+const activeProvider = process.env.GEMINI_API_KEY ? new GeminiAIProvider() : new RuleBasedAIProvider();
+
+console.log(process.env.GEMINI_API_KEY ? "✓ Gemini Provider Loaded" : "✓ RuleBased Provider Loaded");
+
+export const analyzeClause = async (clauseText, legalReference, contractType) => {
+  return await activeProvider.analyzeClause(clauseText, legalReference, contractType);
+};

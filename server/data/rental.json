@@ -1,0 +1,364 @@
+[
+  {
+    "referenceId": "rental_ref1",
+    "contractType": "rental",
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Civil Transactions Law",
+      "ar": "نظام المعاملات المدنية"
+    },
+    "articleNumber": "Article 561",
+    "articleTitle": {
+      "en": "Rent Payment Schedules and Deadlines",
+      "ar": "مواعيد سداد الأجرة الإيجارية"
+    },
+    "articleText": {
+      "en": "The tenant shall pay the rent on the agreed dates. If there is no agreement, the rent shall be paid upon delivery of the leased property...",
+      "ar": "يجب على المستأجر سداد الأجرة في المواعيد المتفق عليها، فإذا لم يكن هناك اتفاق وجب سداد الأجرة عند استلام العين المؤجرة..."
+    },
+    "plainLanguageExplanation": {
+      "en": "Paying rent in a single annual payment is legally valid under Saudi Law, as the parties are free to agree on payment terms. However, Ezar allows installments (monthly, quarterly, semi-annual).",
+      "ar": "سداد الإيجار في دفعة سنوية واحدة أمر مقبول قانوناً بموجب الأنظمة السعودية، فالطرفان أحرار في الاتفاق على شروط الدفع. ومع ذلك، تتيح شبكة إيجار خيارات مرنة للأقساط (شهري، ربع سنوي، نصف سنوي)."
+    },
+    "keywords": [
+      "payment",
+      "installment",
+      "advance",
+      "دفعة",
+      "قيمة الإيجار",
+      "سداد",
+      "أقساط",
+      "سنوي",
+      "دفعة سنوية"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "riskPatterns": [
+      "without cause",
+      "cancel at any time",
+      "دون سبب",
+      "إلغاء في أي وقت"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Civil Transactions Law",
+      "ar": "نظام المعاملات المدنية"
+    },
+    "Article Number": "Article 561",
+    "Article Title": {
+      "en": "Rent Payment Schedules and Deadlines",
+      "ar": "مواعيد سداد الأجرة الإيجارية"
+    },
+    "Original Article Text": {
+      "en": "The tenant shall pay the rent on the agreed dates. If there is no agreement, the rent shall be paid upon delivery of the leased property...",
+      "ar": "يجب على المستأجر سداد الأجرة في المواعيد المتفق عليها، فإذا لم يكن هناك اتفاق وجب سداد الأجرة عند استلام العين المؤجرة..."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "Contract Type": "rental",
+    "Keywords": [
+      "payment",
+      "installment",
+      "advance",
+      "دفعة",
+      "قيمة الإيجار",
+      "سداد",
+      "أقساط",
+      "سنوي",
+      "دفعة سنوية"
+    ],
+    "Risk Patterns": [
+      "without cause",
+      "cancel at any time",
+      "دون سبب",
+      "إلغاء في أي وقت"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "The tenant shall pay the rent on the agreed dates. If there is no agreement, the rent shall be paid upon delivery of the leased property...",
+      "ar": "يجب على المستأجر سداد الأجرة في المواعيد المتفق عليها، فإذا لم يكن هناك اتفاق وجب سداد الأجرة عند استلام العين المؤجرة..."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law"
+  },
+  {
+    "referenceId": "rental_ref2",
+    "contractType": "rental",
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Civil Transactions Law",
+      "ar": "نظام المعاملات المدنية"
+    },
+    "articleNumber": "Article 570",
+    "articleTitle": {
+      "en": "Landlord Obligation for Structural Repairs and Maintenance",
+      "ar": "التزام المؤجر بالترميم وصيانة العين"
+    },
+    "articleText": {
+      "en": "The landlord is obligated to repair any defect in the leased property that affects the tenant's enjoyment of it... This includes main systems and structural elements.",
+      "ar": "يلتزم المؤجر بأن يقوم بإصلاح ما يحدث من خلل في العين المؤجرة يؤثر في استيفاء المنفعة المقصودة... ويشمل ذلك صيانة الأنظمة الأساسية والهيكل الإنشائي."
+    },
+    "plainLanguageExplanation": {
+      "en": "The Landlord is legally responsible for structural maintenance (roofs, foundations, main water/plumbing networks, elevators). The tenant is only responsible for minor consumer repairs (lightbulbs, cleanings, minor fixtures).",
+      "ar": "يلتزم المؤجر بالصيانة الهيكلية والأساسية (مثل الأسقف، الأساسات، مصادر المياه الرئيسية، المصاعد، التكييف الرئيسي) بينما يتكفل المستأجر بالصيانة الاستهلاكية البسيطة (كالمصابيح، الدهانات الداخلية، التلفيات الناتجة عن الاستخدام)."
+    },
+    "keywords": [
+      "maintenance",
+      "structural",
+      "repair",
+      "leakage",
+      "plumbing",
+      "صيانة",
+      "ترميم",
+      "تسريب",
+      "سباكة",
+      "صيانة هيكلية"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "riskPatterns": [
+      "bear all maintenance",
+      "structural repairs",
+      "جميع تكاليف صيانة",
+      "الصيانة الهيكلية"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Civil Transactions Law",
+      "ar": "نظام المعاملات المدنية"
+    },
+    "Article Number": "Article 570",
+    "Article Title": {
+      "en": "Landlord Obligation for Structural Repairs and Maintenance",
+      "ar": "التزام المؤجر بالترميم وصيانة العين"
+    },
+    "Original Article Text": {
+      "en": "The landlord is obligated to repair any defect in the leased property that affects the tenant's enjoyment of it... This includes main systems and structural elements.",
+      "ar": "يلتزم المؤجر بأن يقوم بإصلاح ما يحدث من خلل في العين المؤجرة يؤثر في استيفاء المنفعة المقصودة... ويشمل ذلك صيانة الأنظمة الأساسية والهيكل الإنشائي."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "Contract Type": "rental",
+    "Keywords": [
+      "maintenance",
+      "structural",
+      "repair",
+      "leakage",
+      "plumbing",
+      "صيانة",
+      "ترميم",
+      "تسريب",
+      "سباكة",
+      "صيانة هيكلية"
+    ],
+    "Risk Patterns": [
+      "bear all maintenance",
+      "structural repairs",
+      "جميع تكاليف صيانة",
+      "الصيانة الهيكلية"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "The landlord is obligated to repair any defect in the leased property that affects the tenant's enjoyment of it... This includes main systems and structural elements.",
+      "ar": "يلتزم المؤجر بأن يقوم بإصلاح ما يحدث من خلل في العين المؤجرة يؤثر في استيفاء المنفعة المقصودة... ويشمل ذلك صيانة الأنظمة الأساسية والهيكل الإنشائي."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law"
+  },
+  {
+    "referenceId": "rental_ref3",
+    "contractType": "rental",
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Civil Transactions Law",
+      "ar": "نظام المعاملات المدنية"
+    },
+    "articleNumber": "Article 565",
+    "articleTitle": {
+      "en": "Warranting Peaceful Possession and Quiet Enjoyment",
+      "ar": "ضمان التعرض والانتفاع الهادئ"
+    },
+    "articleText": {
+      "en": "The landlord may not disturb the tenant in the enjoyment of the leased property during the lease term, nor may he make any change to it that affects its enjoyment.",
+      "ar": "لا يجوز للمؤجر أن يتعرض للمستأجر في استيفاء المنفعة طوال مدة الإجارة، ولا أن يحدث في العين ما يخل بالمنفعة."
+    },
+    "plainLanguageExplanation": {
+      "en": "The landlord cannot enter the property or carry out non-urgent changes without the tenant's explicit consent. The tenant has a right to quiet and peaceful enjoyment of the home during the entire lease period.",
+      "ar": "لا يجوز للمؤجر دخول العقار أو إجراء تعديلات غير طارئة دون موافقة صريحة من المستأجر. للمستأجر الحق الكامل في الانتفاع الهادئ والخاص بالمنزل طوال مدة عقد الإيجار."
+    },
+    "keywords": [
+      "landlord entry",
+      "inspection",
+      "access",
+      "دخول المؤجر",
+      "دخول المالك",
+      "معاينة",
+      "زيارة العقار"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "riskPatterns": [
+      "at any time without prior notice",
+      "في أي وقت ودون إشعار"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Civil Transactions Law",
+      "ar": "نظام المعاملات المدنية"
+    },
+    "Article Number": "Article 565",
+    "Article Title": {
+      "en": "Warranting Peaceful Possession and Quiet Enjoyment",
+      "ar": "ضمان التعرض والانتفاع الهادئ"
+    },
+    "Original Article Text": {
+      "en": "The landlord may not disturb the tenant in the enjoyment of the leased property during the lease term, nor may he make any change to it that affects its enjoyment.",
+      "ar": "لا يجوز للمؤجر أن يتعرض للمستأجر في استيفاء المنفعة طوال مدة الإجارة، ولا أن يحدث في العين ما يخل بالمنفعة."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "Contract Type": "rental",
+    "Keywords": [
+      "landlord entry",
+      "inspection",
+      "access",
+      "دخول المؤجر",
+      "دخول المالك",
+      "معاينة",
+      "زيارة العقار"
+    ],
+    "Risk Patterns": [
+      "at any time without prior notice",
+      "في أي وقت ودون إشعار"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "The landlord may not disturb the tenant in the enjoyment of the leased property during the lease term, nor may he make any change to it that affects its enjoyment.",
+      "ar": "لا يجوز للمؤجر أن يتعرض للمستأجر في استيفاء المنفعة طوال مدة الإجارة، ولا أن يحدث في العين ما يخل بالمنفعة."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law"
+  },
+  {
+    "referenceId": "rental_ref4",
+    "contractType": "rental",
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Civil Transactions Law",
+      "ar": "نظام المعاملات المدنية"
+    },
+    "articleNumber": "Article 590",
+    "articleTitle": {
+      "en": "Eviction Notice and Default Options",
+      "ar": "ضوابط الإخلاء والفسخ عند الإخلال"
+    },
+    "articleText": {
+      "en": "If either party breaches their obligations under the lease contract, the other party may demand rescission of the contract with compensation if justified, after serving a notice.",
+      "ar": "إذا أخل أحد المتعاقدين بالتزاماته الناشئة عن عقد الإيجار، جاز للآخر المطالبة بفسخ العقد مع التعويض إن كان له مقتضى، وذلك بعد إعذاره."
+    },
+    "plainLanguageExplanation": {
+      "en": "Eviction is heavily regulated. In case of payment defaults or lease violations, landlords cannot perform summary evictions or locks immediately. A formal eviction process through the Ejar platform and execution courts must be initiated, and reasonable notice must be served.",
+      "ar": "تخضع إجراءات الإخلاء لرقابة مشددة. في حال التأخر عن السداد أو مخالفة العقد، لا يمكن للمؤجر طرد المستأجر تلقائياً أو تغيير الأقفال فوراً. يجب اتخاذ الإجراءات النظامية عبر منصة إيجار ومحاكم التنفيذ وإعطاء مهلة كافية."
+    },
+    "keywords": [
+      "evict",
+      "eviction",
+      "lockout",
+      "expel",
+      "إخلاء",
+      "طرد",
+      "فسخ العقد",
+      "إخلاء المستأجر"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "riskPatterns": [
+      "automatically evicted",
+      "3 days",
+      "إخلاء المستأجر تلقائياً"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Civil Transactions Law",
+      "ar": "نظام المعاملات المدنية"
+    },
+    "Article Number": "Article 590",
+    "Article Title": {
+      "en": "Eviction Notice and Default Options",
+      "ar": "ضوابط الإخلاء والفسخ عند الإخلال"
+    },
+    "Original Article Text": {
+      "en": "If either party breaches their obligations under the lease contract, the other party may demand rescission of the contract with compensation if justified, after serving a notice.",
+      "ar": "إذا أخل أحد المتعاقدين بالتزاماته الناشئة عن عقد الإيجار، جاز للآخر المطالبة بفسخ العقد مع التعويض إن كان له مقتضى، وذلك بعد إعذاره."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "Contract Type": "rental",
+    "Keywords": [
+      "evict",
+      "eviction",
+      "lockout",
+      "expel",
+      "إخلاء",
+      "طرد",
+      "فسخ العقد",
+      "إخلاء المستأجر"
+    ],
+    "Risk Patterns": [
+      "automatically evicted",
+      "3 days",
+      "إخلاء المستأجر تلقائياً"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "If either party breaches their obligations under the lease contract, the other party may demand rescission of the contract with compensation if justified, after serving a notice.",
+      "ar": "إذا أخل أحد المتعاقدين بالتزاماته الناشئة عن عقد الإيجار، جاز للآخر المطالبة بفسخ العقد مع التعويض إن كان له مقتضى، وذلك بعد إعذاره."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/Legislations/LawDetails?lawid=d2036440-6923-4554-8c70-b02600ac1356",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law"
+  }
+]

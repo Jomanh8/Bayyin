@@ -1,0 +1,95 @@
+[
+  {
+    "referenceId": "sub_ref1",
+    "contractType": "subscription",
+    "authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "lawName": {
+      "en": "Saudi Personal Data Protection Law (PDPL)",
+      "ar": "نظام حماية البيانات الشخصية"
+    },
+    "articleNumber": "Articles 5 & 15",
+    "articleTitle": {
+      "en": "Processing Biometric and Sensitive Personal Data Controls",
+      "ar": "ضوابط معالجة البيانات الشخصية والبيانات الحيوية الحساسة"
+    },
+    "articleText": {
+      "en": "Processing personal data is prohibited without the consent of its owner... Sensitive data, including biometric data, may only be processed under strict conditions and cannot be shared with third parties for marketing purposes without explicit consent.",
+      "ar": "لا يجوز معالجة البيانات الشخصية دون موافقة صاحبها... ولا يجوز معالجة البيانات الحساسة، ومنها البيانات الحيوية، إلا وفق ضوابط مشددة ويحظر مشاركتها مع أطراف ثالثة لأغراض تسويقية دون موافقة صريحة ومستقلة."
+    },
+    "plainLanguageExplanation": {
+      "en": "Sensitive personal data (such as biometrics, genetics, or photo IDs) is strictly protected. It cannot be processed or shared with third parties without explicit consent, nor can it be used for marketing purposes without complying with specific regulatory conditions.",
+      "ar": "تحظى البيانات الشخصية الحساسة (مثل البيانات الحيوية والجينية والصحية) بحماية مشددة. ولا يجوز معالجتها أو مشاركتها مع أطراف خارجية إلا بموافقة صريحة ومحددة، ويُمنع استخدامها للتسويق دون استيفاء شروط نظامية معقدة."
+    },
+    "keywords": [
+      "biometric",
+      "personal data",
+      "advertisers",
+      "photo",
+      "بيانات شخصية",
+      "حيوية",
+      "بصمة",
+      "معلومات الشخصية"
+    ],
+    "officialUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6938a53e-51c3-424a-969c-ad1c00e12d47/1",
+    "riskPatterns": [
+      "biometric",
+      "advertisers",
+      "معلنين",
+      "الحيوية",
+      "مشاركة بيانات"
+    ],
+    "Authority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "Law Name": {
+      "en": "Saudi Personal Data Protection Law (PDPL)",
+      "ar": "نظام حماية البيانات الشخصية"
+    },
+    "Article Number": "Articles 5 & 15",
+    "Article Title": {
+      "en": "Processing Biometric and Sensitive Personal Data Controls",
+      "ar": "ضوابط معالجة البيانات الشخصية والبيانات الحيوية الحساسة"
+    },
+    "Original Article Text": {
+      "en": "Processing personal data is prohibited without the consent of its owner... Sensitive data, including biometric data, may only be processed under strict conditions and cannot be shared with third parties for marketing purposes without explicit consent.",
+      "ar": "لا يجوز معالجة البيانات الشخصية دون موافقة صاحبها... ولا يجوز معالجة البيانات الحساسة، ومنها البيانات الحيوية، إلا وفق ضوابط مشددة ويحظر مشاركتها مع أطراف ثالثة لأغراض تسويقية دون موافقة صريحة ومستقلة."
+    },
+    "Official Source URL": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6938a53e-51c3-424a-969c-ad1c00e12d47/1",
+    "Contract Type": "subscription",
+    "Keywords": [
+      "biometric",
+      "personal data",
+      "advertisers",
+      "photo",
+      "بيانات شخصية",
+      "حيوية",
+      "بصمة",
+      "معلومات الشخصية"
+    ],
+    "Risk Patterns": [
+      "biometric",
+      "advertisers",
+      "معلنين",
+      "الحيوية",
+      "مشاركة بيانات"
+    ],
+    "governmentAuthority": {
+      "en": "Bureau of Experts at the Council of Ministers (BOE)",
+      "ar": "هيئة الخبراء بمجلس الوزراء"
+    },
+    "originalArticleText": {
+      "en": "Processing personal data is prohibited without the consent of its owner... Sensitive data, including biometric data, may only be processed under strict conditions and cannot be shared with third parties for marketing purposes without explicit consent.",
+      "ar": "لا يجوز معالجة البيانات الشخصية دون موافقة صاحبها... ولا يجوز معالجة البيانات الحساسة، ومنها البيانات الحيوية، إلا وفق ضوابط مشددة ويحظر مشاركتها مع أطراف ثالثة لأغراض تسويقية دون موافقة صريحة ومستقلة."
+    },
+    "officialSourceUrl": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6938a53e-51c3-424a-969c-ad1c00e12d47/1",
+    "dateAdded": "2026-07-19T12:00:00Z",
+    "lastUpdated": "2026-07-19T12:00:00Z",
+    "version": "v4.0",
+    "status": "Active",
+    "urlType": "law"
+  }
+]
