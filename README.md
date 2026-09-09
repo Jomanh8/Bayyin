@@ -48,7 +48,7 @@ Some contract categories are currently experimental while their legal knowledge 
 - HTML
 - CSS
 - JavaScript
-- Vite
+
 
 ### Backend
 - Node.js
